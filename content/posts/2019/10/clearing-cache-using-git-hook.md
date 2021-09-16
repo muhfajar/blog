@@ -53,7 +53,7 @@ CF_ID=cloudflare-zone-id
 
 To generate an API key in Cloudflare, please refer to this [link][token]. After all complete, now you can deploy and also tell Cloudflare to purge your cache, so your web visitor always gets the latest data.
 
-[deploy]: https://www.muhfajar.blog/posts/deploying-now-with-cloudflare/
+[deploy]: https://www.muhfajar.blog/deploying-now-with-cloudflare/
 [cloudflare]: https://www.cloudflare.com/
 [git-hook]: https://githooks.com/
 [token]: https://developers.cloudflare.com/api/tokens/create

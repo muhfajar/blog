@@ -102,7 +102,7 @@ rssLimit = 5
   # Social icons
   [[params.social]]
     name = "twitter"
-    url  = "https://twitter.com/__muhfajar"
+    url  = "https://twitter.com/mufajar_"
 
   [[params.social]]
     name = "github"

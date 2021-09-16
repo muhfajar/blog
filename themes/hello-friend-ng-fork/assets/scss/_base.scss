@@ -15,9 +15,8 @@ body {
   margin: 0;
   padding: 0;
   font-family: $font-face-mono, -apple-system, BlinkMacSystemFont, "Roboto", "Segoe UI",  Helvetica, Arial, sans-serif;
-  font-display: auto;
   font-weight: 400;
-  font-size: .87rem;
+  font-size: .98rem;
   line-height: 1.54;
   background-color: $light-background;
   color: $light-color;
@@ -49,6 +48,7 @@ h2, h3, h4, h5, h6 {
   display: flex;
   align-items: center;
   line-height: 1.3;
+  margin-top: 35px;
 }
 
 h1 {
@@ -168,7 +168,6 @@ figure {
 
 code {
   font-family: Consolas,Monaco,Andale Mono,Ubuntu Mono,monospace;
-  font-display: auto;
   font-feature-settings: normal;
   background: $light-background-secondary;
   padding: 1px 6px;
@@ -219,7 +218,6 @@ blockquote {
   &:before {
     content: '”';
     font-family: Georgia, serif;
-    font-display: auto;
     font-size: 3.875rem;
     position: absolute;
     left: -40px;
@@ -324,7 +322,6 @@ hr {
 	clip-path: none;
 	color: #21759b;
 	display: block;
-	font-size: 14px;
 	font-size: 0.875rem;
 	font-weight: bold;
 	height: auto;
