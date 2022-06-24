@@ -1,7 +1,7 @@
 {{ define "main" }}
     <main class="post">
 
-        {{- if not (in .URL "settings") -}}
+        {{- if not (in .Permalink "settings") -}}
             <div class="post-info no-print">
                 <p><svg xmlns="http://www.w3.org/2000/svg" width="24" height="24" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" class="feather feather-clock"><circle cx="12" cy="12" r="10"></circle><polyline points="12 6 12 12 16 14"></polyline></svg>{{ i18n "readingTime" .Page.ReadingTime }}
 
@@ -41,7 +41,7 @@
             </div>
         </article>
 
-        {{- if not (in .URL "settings") -}}
+        {{- if not (in .Permalink "settings") -}}
             <hr />
 
             <div class="post-info">

@@ -17,11 +17,11 @@
         {{ if .IsHome }}
             {{ $.Site.Title }}
         {{ else }}
-            {{- if in .URL "posts" -}}
+            {{- if in .Permalink "posts" -}}
                 {{ $.Site.Title }}
-            {{- else if (in .URL "tags") -}}
+            {{- else if (in .Permalink "tags") -}}
                 {{ i18n "postTags" }} &bull; {{ $.Site.Title }}
-            {{- else if (in .URL "categories") -}}
+            {{- else if (in .Permalink "categories") -}}
                 {{ i18n "postCategories" }} &bull; {{ $.Site.Title }}
             {{- else -}}
                 {{ .Title }} &bull; {{ $.Site.Title }}

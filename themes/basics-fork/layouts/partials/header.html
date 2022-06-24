@@ -31,19 +31,19 @@
 
         <div class="collapse navbar-collapse" id="navbarNavAltMarkup">
             <div class="navbar-nav">
-                <a class="nav-item nav-link {{ if eq .URL "/" }}active{{ end }}" href="/">home</a>
+                <a class="nav-item nav-link {{ if eq .Permalink "/" }}active{{ end }}" href="/">home</a>
                 {{ with .Site.Params.github }}<a class="nav-item nav-link" href="https://github.com/{{ . }}" target="_blank">github</a>{{ end }}
                 {{ with .Site.Params.twitter }}<a class="nav-item nav-link" href="https://twitter.com/{{ . }}" target="_blank">twitter</a>{{ end }}
                 {{ with .Site.Params.linkedin }}<a class="nav-item nav-link" href="https://www.linkedin.com/in/{{ . }}" target="_blank">linkedin</a>{{ end }}
                 {{ with .Site.Params.source }}<a class="nav-item nav-link" href="/{{ . }}" target="_blank">source</a>{{ end }}
-                <a class="nav-item nav-link {{ if eq .URL "/resume/" }}active{{ end }}" href="/resume/">résumé</a>
-                <a class="nav-item nav-link {{ if eq .URL "/chat/" }}active{{ end }}" href="/chat/">chat</a>
+                <a class="nav-item nav-link {{ if eq .Permalink "/resume/" }}active{{ end }}" href="/resume/">résumé</a>
+                <a class="nav-item nav-link {{ if eq .Permalink "/chat/" }}active{{ end }}" href="/chat/">chat</a>
             </div>
         </div>
     </nav>
 
 <!--    <section id="page-title" class="web">-->
-<!--        {{ if eq .URL "/"}}-->
+<!--        {{ if eq .Permalink "/"}}-->
 <!--            <img src="/drawkit-nature-man-colour.svg" width="100%" style="padding: 20px">-->
 <!--        {{ else }}-->
 <!--            &nbsp;-->
@@ -58,7 +58,7 @@
 <!--    </section>-->
 
     <section id="page-title">
-        {{ if eq .URL "/"}}
+        {{ if eq .Permalink "/"}}
             <img src="/034.png" width="66%" style="padding: 20px">
         {{ else }}
             &nbsp;
