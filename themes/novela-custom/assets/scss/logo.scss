@@ -1,3 +1,6 @@
+@import url('https://fonts.googleapis.com/css2?family=Basic&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Actor&family=Basic&display=swap');
+
 #logo-desktop{
     .change-fill{
         fill: var(--primary);
@@ -10,11 +13,26 @@
     }
 }
 
-@media screen and (max-width: 735px){
-    .Logo__Desktop {
-        display: none;
-    }
-    .Logo__Mobile{
-        display: block;
-    }
+//@media screen and (max-width: 735px){
+//    .Logo__Desktop {
+//        display: none;
+//    }
+//    .Logo__Mobile{
+//        display: block;
+//    }
+//}
+
+.logo-container{
+    margin-top: -7px;
+}
+
+.logo-text-name{
+    font-family: 'Basic', serif;
+    font-size: 2.7rem;
+    color: var(--primary);
+}
+
+.logo-text-domain{
+    font-family: 'Actor', serif;
+    font-size: 1.5rem;
 }
