@@ -5,5 +5,6 @@ bio: |
     and designed to make website creation fun again.
 avatar: /images/hugo-author.jpeg
 featured: false
+social: []
 
 ---
