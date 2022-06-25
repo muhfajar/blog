@@ -1,0 +1,56 @@
+languageCode: en-us
+baseURL: "https://www.muhfajar.blog/"
+title: Muhamad Fajar
+
+buildDrafts: true
+buildFuture: false
+buildExpored: false
+canonifyURLs: true
+enableRobotsTXT: true
+enableEmoji: true
+
+pygmentsstyle: "monokai"
+
+disableRSS: false
+disableSitemap: false
+disable404: false
+disableHugoGeneratorInject: false
+rssLimit: 5
+
+sitemap:
+  changefreq: monthly
+  filename: sitemap.xml
+  priority: 0.5
+
+caches:
+  getjson:
+    dir: ":cacheDir/:project"
+    maxAge: -1
+  getcsv:
+    dir: ":cacheDir/:project"
+    maxAge: -1
+  images:
+    dir: ":resourceDir/_gen"
+    maxAge: -1
+  assets:
+    dir: ":resourceDir/_gen"
+    maxAge: -1
+  modules:
+    dir: ":cacheDir/modules"
+    maxAge: -1
+
+taxonomies:
+  author: Muhamad Fajar
+  tag: tags
+  category: categories
+
+# Novela config
+theme: novela-custom
+paginate: 6
+social:
+  unsplash: "https://unsplash.com/@muhfajar"
+  github: "https://github.com/muhfajar"
+  linkedin: "https://www.linkedin.com/in/muhfajar"
+  twitter: "https://twitter.com/mufajar_"
+  instagram: "https://instagram.com/_mufajar"
+
