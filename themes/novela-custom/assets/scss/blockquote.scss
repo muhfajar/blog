@@ -15,22 +15,22 @@ blockquote > p {
   padding-bottom: 0;
   width: 100%;
   margin: 0 auto;
-  font-size: 36px;
-  line-height: 1.32;
-  font-weight: bold;
+  font-size: 1.25em;
+  line-height: 2em;
+  font-weight: normal;
 }
 
 @media screen and (max-width: 735px) {
     blockquote{
         margin: 10px auto 35px;
-        font-size: 26px;
+        font-size: 1em;
         padding: 0 180px;
     }
 }
 
 @media screen and (max-width: 540px) {
     blockquote{
-        font-size: 36px;
-        padding: 0 20px 0 40px;
+        font-size: 1.1em;
+        padding: 0;
     }
 }
