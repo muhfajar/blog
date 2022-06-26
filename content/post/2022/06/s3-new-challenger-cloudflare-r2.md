@@ -15,6 +15,6 @@ tags:
 - amazon-s3
 authors:
 - Muhamad Fajar
-draft = true
+draft: true
 
 ---
