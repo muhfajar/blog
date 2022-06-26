@@ -2,23 +2,19 @@
 title: Playing in Ruby Mine
 date: 2018-01-06
 hero: https://images.unsplash.com/photo-1551122102-63cd339bfaab?ixlib=rb-1.2.1&ixid=MnwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&auto=format&fit=crop&w=2942&q=80
-excerpt: My journey using Ruby on the first time
+excerpt: My journey using Ruby for the first time
 categories:
- - tech
+- tech
 tags:
- - ruby
- - tech
- - programing-language
- - rails
-
+- ruby
+- tech
+- programing-language
+- rails
 authors:
- - Muhamad Fajar
-
-draft: false
+- Muhamad Fajar
 
 ---
-
-I started as Ruby dev in my new job, previously I worked as PHP and Python dev and I found Ruby is slightly different sometimes especially with PHP. First time I read Ruby documentation, Ruby syntax is familiar, that looks like Python with some additional word every end of a function. For example:
+I started as a Ruby dev in my new job, previously I worked as a PHP and Python dev and I found Ruby is slightly different sometimes, especially with PHP. The first time I read Ruby documentation, Ruby syntax is familiar, that looks like Python with some additional words at every end of a function. For example:
 
 ```python
 def foo():
@@ -31,14 +27,15 @@ def foo
 end
 ```
 
-For framework Ruby have Rails (not only Rails actually, many framework out there) and when I came to my new job, I have only 3 days to learn what Ruby is and what is Rails, so basically I am learning by doing after my quick learn from digging up Ruby and Rails documentation.
+For framework, Ruby has Rails (not only Rails actually, many frameworks out there) and when I came to my new job, I also had only 3 days to learn what Ruby is and what is Rails, so basically I am learning by doing after my quick learn from digging up Ruby and Rails documentation.
 
-On my first Jira task, I really struggle to find out *magic* behind Rails, a lot of class or module not implicitly import to another class, but I can use that class easily. Different with Django, you must import or define anything you plan to use. In Rails as long as your naming conventions follow documentation you can save a few lines of code (except you're using unofficial Rails Gem, you must import class using 'use' command)
+On my first Jira task, I really struggle to find out the _magic_ behind Rails, a lot of classes or modules are not implicitly imported to another class, but I can use that class easily. Different from Django, you must import or define anything you plan to use. In Rails as long as your naming conventions follow documentation you can save a few lines of code (except if you're using unofficial Rails Gem, you must import class using the 'use' command)
 
 ## Handy Built-in Method
+
 ### try() Object
 
-Imagine, you don't to worry about how to handle `out of index array` in Rails, I just found how to handle array with elegance (yes, as you know, I just to know Ruby about 1 week since this post was done I write), just put object `try()` after that you don't to worry about the possibility of that object being `nil` and thus raising an exception. See code snip on below:
+Imagine, you don't worry about how to handle `out of index array` in Rails, I just found how to handle array with elegance (yes, as you know, I just to know Ruby about 1 week since this post was done I write), just put an object `try()` after that, you don't worry about the possibility of that object being `nil` and thus raising an exception. See code snip below:
 
 ```ruby
 [].try(:[], 1) # => nil
@@ -50,21 +47,17 @@ Imagine, you don't to worry about how to handle `out of index array` in Rails, I
 { foo: 'bar' }.try(:foo) # => 'bar'
 ```
 
-Disclaimer: `try()` object is good to implement when you not have much time to validate all return came from other object, this will prevent your code from process break, but this technique is not a replacement for good techniques like validations and default database values. 
+Disclaimer: `try()` an object is good to implement when you did not have much time to validate all returns that came from another object, this will prevent your code from process break, but this technique is not a replacement for good techniques like validations and default database values.
 
 ### Rails ORM: Active Record
 
-What is ORM? 
-> Object-relational mapping (ORM, O/RM, and O/R mapping tool) in computer science
-> is a programming technique for converting data between incompatible type systems
-> using object-oriented programming languages. This creates, in effect, a "virtual
-> object database" that can be used from within the programming language. There are
-> both free and commercial packages available that perform object-relational mapping,
-> although some programmers opt to construct their own ORM tools.[[1]][wikipedia-orm]
+What is ORM?
 
-In the other word, ORM modified or retrieved by writing query statements, and it lets you interact with that data as though it was a normal Ruby object.
+> Object-relational mapping (ORM, O/RM, and O/R mapping tool) in computer science is a programming technique for converting data between incompatible type systems using object-oriented programming languages. This creates, in effect, a "virtual object database" that can be used from within the programming language. There are both free and commercial packages available that perform object-relational mapping, although some programmers opt to construct their own ORM tools.[\[1\]](https://en.wikipedia.org/wiki/Object-relational_mapping)
 
-For example from this query to fetch all data from `table`:
+In other words, ORM is modified or retrieved by writing query statements, and it lets you interact with that data as though it was a normal Ruby object.
+
+For example, this query to fetch all data from `table`:
 
 ```mysql
 SELECT * FROM table
@@ -78,10 +71,10 @@ Table.all()
 
 ### Array Manipulation
 
-Rails have bunched of method to make coding more fun, for manipulate array Rails have  `select`, `each`, `map`, `reject` and `reduct`. Let's pick one sample to see what make this method so special.
+Rails have bunched of methods to make coding more fun, for manipulate array Rails have  `select`, `each`, `map`, `reject` and `reduct`. Let's pick one sample to see what makes this method so special.
 
-Case study:\
-We have dictionary of employee like this:
+Case study:  
+We have a dictionary of employees like this:
 
 ```ruby
 employee = [
@@ -106,8 +99,8 @@ employee = [
 ]
 ```
 
-Next we want to sum all salary if employee has pass the probation 
- 
+Next, we want to sum all salaries if an employee has passed the probation
+
 ```ruby
 # without each or select
 
@@ -130,9 +123,9 @@ unless e3
 end
 
 puts total
-``` 
+```
 
-Let's compare if we use some handy method to manipulating array
+Let's compare if we use some handy method to manipulate the array
 
 ```ruby
 # use reject, map and reduce
@@ -140,6 +133,4 @@ Let's compare if we use some handy method to manipulating array
 puts employee.reject{ |e| e[:probation] }.map{ |y| y[:salary].to_i }.reduce(:+)
 ```
 
-This was my adventure using Ruby so far, that much more I guess when I start to building more complex application. See you next time!
-
-[wikipedia-orm]: https://en.wikipedia.org/wiki/Object-relational_mapping
+This was my adventure using Ruby so far, and that much more I guess when I start building more complex applications. See you next time!
