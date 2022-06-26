@@ -24,4 +24,5 @@ fields:
   name: authors
   label: authors
 pages:
+- content/post/2014/03/migrate-from-jekyll.en.md
 - content/post/2018/01/playing-in-ruby-mine.md
