@@ -1,6 +1,6 @@
 ---
 title: Kerja Dari Rumah
-date: 2020-04-25
+date: 2020-04-25T16:09:00+07:00
 hero: https://images.unsplash.com/photo-1588196749597-9ff075ee6b5b?ixlib=rb-1.2.1&ixid=MnwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&auto=format&fit=crop&w=2274&q=80
 excerpt: Catatan diawal Corona
 categories:
