@@ -463,6 +463,11 @@
 
 .post-content{
     padding: 160px 0 35px;
+
+    /*TABLET*/
+    @media screen and (max-width: $tablet){
+        padding: 50px 0 35px;
+    }
 }
 
 /**************************************ARTICLE NEXT**************************************/
