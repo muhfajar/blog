@@ -19,7 +19,7 @@ figure img{
   }
 
   /*PHABLET*/
-  @media screen and (max-width: phablet){
+  @media screen and (max-width: $phablet){
     margin: 0 auto;
     width: calc(100vw - 40px);
     height: 220px;
@@ -38,4 +38,9 @@ figcaption p{
   font-size: 9px;
   font-weight: normal;
   padding: 20px 0;
+
+  /*PHABLET*/
+  @media screen and (max-width: $phablet){
+    padding: 15px 0 !important;
+  }
 }
