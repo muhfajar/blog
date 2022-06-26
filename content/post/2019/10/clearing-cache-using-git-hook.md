@@ -1,6 +1,6 @@
 ---
 title: Purge Cache with Git Hooks
-date: 2019-10-21
+date: 2019-10-21T20:55:00+07:00
 hero: https://images.unsplash.com/photo-1604417429445-2ef33ea36574?ixlib=rb-1.2.1&ixid=MnwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&auto=format&fit=crop&w=2834&q=80
 excerpt: The simply way to purge Cloudflare caches every code has changed
 categories:
