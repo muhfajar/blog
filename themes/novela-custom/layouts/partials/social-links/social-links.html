@@ -3,7 +3,7 @@
         {{ range $index, $component := .Site.Social }}
             {{ with $component }}
                 {{ $path := print "icons/social/" $index }}
-                <a href="{{ . }}">{{ partial $path $ }}</a>
+                <a href="{{ . }}" aria-label="{{ . }}" data-microtip-position="top" role="tooltip">{{ partial $path $ }}</a>
                 <span class="hidden">{{ $component }}</span>
             {{ end }}
         {{ end }}
