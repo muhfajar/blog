@@ -1,6 +1,6 @@
 ---
 title: Modern Problems Require Modern Solutions
-date: 2020-05-09
+date: 2020-05-09T15:37:00+07:00
 hero: https://images.unsplash.com/photo-1539627831859-a911cf04d3cd?ixlib=rb-1.2.1&ixid=MnwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&auto=format&fit=crop&w=2942&q=80
 excerpt: Journey to get stable internet connection
 categories:
