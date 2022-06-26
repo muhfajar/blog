@@ -6,6 +6,7 @@
     {{ $style := resources.Get "scss/global.scss" | toCSS | minify | fingerprint }}
     <link rel="stylesheet" href="{{ $style.RelPermalink }}">
     {{ $prism := resources.Get "css/prism.css" }}
+    {{ $prism := resources.Get "css/microtip.css" }}
     <link rel="stylesheet" href="{{ $prism.RelPermalink }}" />
     <link href="https://fonts.googleapis.com/css?family=Merriweather&display=swap" rel="stylesheet">
     {{ partial "seo/print.html" . }}
