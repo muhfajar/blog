@@ -1,21 +1,20 @@
 +++
+authors = []
 categories = ["journal"]
-date = "2020-05-09T15:55:14+07:00"
-draft = false
+cover = "modern-problems-require-modern-solutions.gif"
+coverCredit = "https://imgur.com/gallery/w0rIR7t"
+date = 2020-05-09T08:55:14Z
+excerpt = ""
+hero = ""
 slug = "modern-problems-require-modern-solutions"
 tags = ["journal", "corona", "work-from-home", "open-source"]
 title = "Modern Problems Require Modern Solutions"
-type = ["post", "posts"]
 toc = false
-
-cover = "modern-problems-require-modern-solutions.gif"
-coverCredit = "https://imgur.com/gallery/w0rIR7t"
-
+type = ["post", "posts"]
 [author]
-  name = "Muhamad Fajar"
+name = "Muhamad Fajar"
 
 +++
-
 Recently I posted about my experience with the longest [work from home][wfh] (posted in Bahasa) I ever had so far. The biggest challenge about work from home on the internet era is an internet connection itself. I often got a bad connection in the middle of the meeting, that not good especially I'm the host in a meeting, not only once but "daily standup meeting". Yes, you can see daily in the quoted word.
 
 {{< giphy src="1094xSp23iiiv6" >}}
