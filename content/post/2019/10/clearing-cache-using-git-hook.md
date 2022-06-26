@@ -1,21 +1,21 @@
-+++
-authors = ["Muhamad Fajar"]
-categories = ["tech"]
-cover = "purge-cache-with-git-hooks.jpg"
-coverCredit = "https://wall.alphacoders.com/big.php?i=888391"
-date = 2019-10-21T04:22:17Z
-excerpt = "The simply way to purge Cloudflare cache every codes has changed"
-hero = "https://images.unsplash.com/photo-1604417429445-2ef33ea36574?ixlib=rb-1.2.1&ixid=MnwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&auto=format&fit=crop&w=2834&q=80"
-slug = "purge-cache-with-git-hooks"
-tags = ["how-to", "cloud", "tech", "git", "cloudflare"]
-title = "Purge Cache with Git Hooks"
-toc = false
-type = ["post", "posts"]
-[author]
-name = "Muhamad Fajar"
+---
+title: Purge Cache with Git Hooks
+date: 2019-10-21
+hero: https://images.unsplash.com/photo-1604417429445-2ef33ea36574?ixlib=rb-1.2.1&ixid=MnwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&auto=format&fit=crop&w=2834&q=80
+excerpt: The simply way to purge Cloudflare caches every code has changed
+categories:
+- tech
+tags:
+- how-to
+- cloud
+- tech
+- git
+- cloudflare
+authors:
+- Muhamad Fajar
 
-+++
-In the last post about [deploying Now with Cloudflare](https://www.muhfajar.blog/deploying-now-with-cloudflare/), I have been describing in general how to deploy a project using Now and how to integrate with [Cloudflare](https://www.cloudflare.com/). After success deploying, if you set Cloudflare cache to make your website faster I guess you will face issues related to a cache.
+---
+In the last post about [deploying Now with Cloudflare](https://www.muhfajar.blog/post/2019/10/deploying-now-with-cloudflare/), I have been describing in general how to deploy a project using Now and how to integrate with [Cloudflare](https://www.cloudflare.com/). After success deploying, if you set Cloudflare cache to make your website faster I guess you will face issues related to a cache.
 
 First, if you push or make changes, your website does not instantly follow the changes. From my experience that is because of cache! So to handle this case we need to purge every time we make a change and Git has a handy feature to make it automatically, which call hooks.
 

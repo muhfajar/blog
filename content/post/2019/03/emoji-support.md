@@ -4,20 +4,16 @@ date: 2019-03-05
 hero: https://images.unsplash.com/photo-1587483166702-bf9aa66bd791?ixlib=rb-1.2.1&ixid=MnwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&auto=format&fit=crop&w=2940&q=80
 excerpt: Guide to emoji usage in Hugo
 categories:
- - development
+- development
 tags:
- - development
- - hugo
- - how-to
- - emoji
-
+- development
+- hugo
+- how-to
+- emoji
 authors:
- - Hugo Authors
-
-draft: false
+- Hugo Authors
 
 ---
-
 Emoji can be enabled in a Hugo project in a number of ways.
 <!--more-->
 The [`emojify`](https://gohugo.io/functions/emojify/) function can be called directly in templates or [Inline Shortcodes](https://gohugo.io/templates/shortcode-templates/#inline-shortcodes).

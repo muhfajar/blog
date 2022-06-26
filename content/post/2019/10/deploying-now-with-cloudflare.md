@@ -1,21 +1,21 @@
-+++
-authors = []
-categories = ["tech"]
-cover = "deploying-now-with-cloudflare.png"
-coverCredit = "https://assets.zeit.co/image/upload/v1581518533/repositories/now-cli/v4.png"
-date = 2019-10-14T21:52:59Z
-excerpt = "First I thought about Now is magic, with only a small configuration (in v2) I can deploy a static website easily"
-hero = "https://images.unsplash.com/photo-1548695607-9c73430ba065?ixlib=rb-1.2.1&ixid=MnwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&auto=format&fit=crop&w=2825&q=80"
-slug = "deploying-now-with-cloudflare"
-tags = ["cloud", "tech", "now", "cloudflare"]
-title = "Deploying Now with Cloudflare"
-toc = false
-type = ["post", "posts"]
-[author]
-name = "Muhamad Fajar"
+---
+title: Deploying Now with Cloudflare
+date: 2019-10-14
+hero: https://images.unsplash.com/photo-1548695607-9c73430ba065?ixlib=rb-1.2.1&ixid=MnwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&auto=format&fit=crop&w=2825&q=80
+excerpt: First I thought about Now is magic, with only a small configuration (in v2) I can deploy a static website easily
+categories: 
+- tech
+tags: 
+- cloud
+- tech
+- cloudflare
+- vercel
+- now
+authors:
+- Muhamad Fajar
 
-+++
-> *This post has been updated with the latest update from Vercel (formerly ZEIT)
+---
+> This post has been updated with the latest update from Vercel (formerly ZEIT)
 
 I've been playing around with [Now](https://vercel.com/) deployment for a few months. First I thought about Now is magic, with only a small configuration (in v2) I can deploy a static website easily, now I can deploy (with default template) any static website without any configuration. That's amazing.
 

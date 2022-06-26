@@ -4,20 +4,16 @@ date: 2019-03-11
 hero: https://images.unsplash.com/photo-1482062364825-616fd23b8fc1?ixlib=rb-1.2.1&ixid=MnwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&auto=format&fit=crop&w=2940&q=80
 excerpt: Sample article showcasing basic Markdown syntax and formatting for HTML elements
 categories:
- - development
+- development
 tags:
- - development
- - hugo
- - how-to
- - markdown
-
-authors:
- - Hugo Authors
-
-draft: false
+- development
+- hugo
+- how-to
+- markdown
+authors: 
+- Hugo Authors
 
 ---
-
 This article offers a sample of basic Markdown syntax that can be used in Hugo content files, also it shows whether basic HTML elements are decorated with CSS in a Hugo theme.
 <!--more-->
 
