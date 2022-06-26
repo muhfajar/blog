@@ -1,6 +1,6 @@
 ---
 title: 'Django: The Side Project Best Friend'
-date: 2020-09-24T08:00:00+07:00
+date: 2020-09-24T08:54:00+07:00
 hero: https://images.unsplash.com/photo-1580121441575-41bcb5c6b47c?ixlib=rb-1.2.1&ixid=MnwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&auto=format&fit=crop&w=2274&q=80
 excerpt: The story about me and the Django Framework
 categories:
