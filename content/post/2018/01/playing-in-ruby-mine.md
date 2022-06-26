@@ -10,6 +10,7 @@ tags:
 - tech
 - programing-language
 - rails
+- python
 authors:
 - Muhamad Fajar
 

@@ -10,6 +10,7 @@ tags:
 - corona
 - work-from-home
 - open-source
+- python
 authors:
 - Muhamad Fajar
 

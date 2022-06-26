@@ -12,6 +12,7 @@ tags:
 - cloudflare
 - vercel
 - now
+- deployment
 authors:
 - Muhamad Fajar
 

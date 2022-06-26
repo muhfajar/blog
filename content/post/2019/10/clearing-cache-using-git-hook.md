@@ -11,6 +11,7 @@ tags:
 - tech
 - git
 - cloudflare
+- cloudflare-cache
 authors:
 - Muhamad Fajar
 

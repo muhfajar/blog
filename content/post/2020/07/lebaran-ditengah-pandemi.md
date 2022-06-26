@@ -8,6 +8,7 @@ categories:
 tags:
 - journal
 - corona
+- eid-al-fitr
 authors:
 - Muhamad Fajar
 
