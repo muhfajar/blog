@@ -1,7 +1,7 @@
 ---
 title: Muhamad Fajar
-bio: 'Full-snack developer, a self-taught person, an amateur mobile photographer,
-  on the weekdays working on GoTix on the weekend gowes.
+bio: 'Full-snack developer, a self-taught person, an amateur mobile photographer.
+  Weekdays GoTix, weekend gowes.
 
   '
 avatar: "/images/fajar-author.jpeg"
