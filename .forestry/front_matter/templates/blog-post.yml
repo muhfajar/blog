@@ -25,5 +25,6 @@ fields:
   label: authors
 pages:
 - content/post/2014/03/migrate-from-jekyll.en.md
+- content/post/2014/04/go-is-for-lovers.en.md
 - content/post/2014/09/creating-a-new-theme.en.md
 - content/post/2018/01/playing-in-ruby-mine.md

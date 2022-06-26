@@ -1,25 +1,21 @@
 ---
-title: (Hu)go Template Primer
+title: "(Hu)go Template Primer"
 date: 2014-04-02
 hero: https://images.unsplash.com/photo-1530435460869-d13625c69bbf?ixlib=rb-1.2.1&ixid=MnwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&auto=format&fit=crop&w=2940&q=80
 excerpt: Brief story about Hugo templating
 categories:
- - development
+- development
 tags:
- - go
- - golang
- - templates
- - themes
- - development
- - how-to
-
+- go
+- golang
+- templates
+- themes
+- development
+- how-to
 authors:
- - Hugo Authors
-
-draft: false
+- Hugo Authors
 
 ---
-
 Hugo uses the excellent [Go][] [html/template][gohtmltemplate] library for its template engine. It is an extremely lightweight engine that provides a very small amount of logic. In our experience that it is just the right amount of logic to be able to create a good static website. If you have used other template systems from different languages or frameworks you will find a lot of similarities in Go templates.
 
 This document is a brief primer on using Go templates. The [Go docs][gohtmltemplate] provide more details.
