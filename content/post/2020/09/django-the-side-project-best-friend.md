@@ -28,7 +28,7 @@ During when kick-off meeting, I try to break down all requirements and all possi
 
 So, I decide to use Django instead of Laravel, even though I had never used it at the production level. That will be my first project using Django.
 
-{{< figure src="https://images.unsplash.com/photo-1581016793738-9e1decb242f3?ixlib=rb-1.2.1&ixid=MnwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&auto=format&fit=crop&w=987&q=80" caption="*fingers crossed*" >}}
+{{< figure src="https://images.unsplash.com/photo-1581016793738-9e1decb242f3?ixlib=rb-1.2.1&ixid=MnwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&auto=format&fit=crop&w=987&q=80" caption="fig: fingers crossed" >}}
 
 All is good until the requirement and the other has changed time by time, and I still can follow the timeline, In other words, Django works well with a tight deadline, but not with the project requirement. I think how sophisticated a framework is if the project timeline and the requirements from the beginning are not clear enough, all will not be getting done on time.
 
