@@ -1,21 +1,19 @@
-+++
-authors = []
-categories = ["journal"]
-cover = "sebagai-pendengar-happier-paprika.jpg"
-coverCredit = "https://www.nme.com/news/music/olivia-rodrigo-says-response-to-drivers-licence-is-beyond-her-wildest-dreams-2860937"
-date = 2021-09-21T15:42:09Z
-draft = true
-excerpt = ""
-hero = ""
-slug = "sebagai-pendengar-happier-paprika"
-tags = ["music", "journal", "sebagai-pendengar"]
-title = "Sebagai Pendengar: Happier & Paprika"
-toc = false
-type = ["post", "posts"]
-[author]
-name = "Muhamad Fajar"
+---
+title: "Sebagai Pendengar: Happier & Paprika"
+date: 2021-09-21
+hero:
+excerpt:
+categories:
+- journal
+tags:
+- music
+- journal
+- sebagai-pendengar
+authors:
+- Muhamad Fajar
+draft: true
 
-+++
+---
 Postingan kali ini saya mau sedikit cerita tentang dua lagu yang belakangan ini sering banget saya puter kalo lagi di mobil, untuk dua lagu itu yang keduanya saya tau secara tidak sengaja.
 
 Jadi suatu ketika, saya lagi belanja di sebuah supermarket (lupa dimananya) dan saat itu disana lagi muter lagu yang pas pertama saya dengar rasanya ko enak gitu, terus dalam liriknya dia ingin mantannya bahagia tapi jangan lebih bahagia dari saat mereka pacaran. Penasaran lah saya, ini lagu siapa ko _asoy_ gini, dengan bermodal lirik yang kedengeran dikit-dikit, saya cari lirik itu dibantu Google, dan muncul lah judul serta penynyi dari lagu itu, dari sanalah saya pertama tau **Olivia Rodrigo** dengan **happier**-nya.

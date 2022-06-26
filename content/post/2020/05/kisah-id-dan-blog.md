@@ -1,20 +1,18 @@
-+++
-authors = []
-categories = ["journal"]
-cover = "kisah-id-dan-blog.jpg"
-coverCredit = "https://www.wallpaperup.com/611537/BLOG_blogger_computer_internet_typography_text_media_blogging_social.html"
-date = 2020-05-16T16:30:23Z
-excerpt = ""
-hero = ""
-slug = "kisah-id-dan-blog"
-tags = ["journal", "freebies", "template"]
-title = "Kisah .id dan .blog"
-toc = false
-type = ["post", "posts"]
-[author]
-name = "Muhamad Fajar"
+---
+title: Kisah .id dan .blog
+date: 2020-05-16
+hero: https://images.unsplash.com/photo-1486312338219-ce68d2c6f44d?ixlib=rb-1.2.1&ixid=MnwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&auto=format&fit=crop&w=2944&q=80
+excerpt: Ide dibalik pemisahan domain utama dan blog
+categories: 
+- journal
+tags: 
+- journal
+- freebies
+- template
+authors:
+- Muhamad Fajar
 
-+++
+---
 Mungkin untuk beberapa orang yang pernah mengunjungi situs web pribadi saya sebelumnya akan merasa pangling saat melihat tema dari halaman utamanya karena sebelumnya halaman utama situs web saya merupakan halaman indeks dari [CMS Hugo][hugo] saja. Karena pada awalnya niat saya hanya untuk membuat situs web pribadi sebagai halaman blog saja. Namun setelah saya melihat situs web pribadi dari [Cody Ogden][cody] (orang dibalik situs web [Killed by Google][graveyard]) saya tertarik untuk mengikuti apa yang dia lakukan untuk halaman blognya. Jika dilihat di situs web pribadi dia, dia memisahkan domain untuk halaman web utamanya dengan halaman untuk blog. Ini cukup menarik bagi saya, terlebih sekarang sudah ada TLD [.blog][blog] yang menurut saya ini keren!
 
 Langsunglah saya memesan domain tersebut, tidak lama setelah itu saya langsung daftarkan domain itu ke akun Cloudflare saya.

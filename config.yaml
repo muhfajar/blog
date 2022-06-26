@@ -46,7 +46,7 @@ taxonomies:
 
 # Novela config
 theme: novela-custom
-paginate: 6
+paginate: 8
 social:
   unsplash: https://unsplash.com/@muhfajar
   github: https://github.com/muhfajar

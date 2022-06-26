@@ -1,19 +1,17 @@
-+++
-authors = []
-categories = ["journal"]
-cover = "kerja-dari-rumah.jpg"
-date = 2020-04-25T13:42:23Z
-excerpt = ""
-hero = ""
-slug = "kerja-dari-rumah"
-tags = ["journal", "corona"]
-title = "Kerja Dari Rumah"
-toc = false
-type = ["post", "posts"]
-[author]
-name = "Muhamad Fajar"
+---
+title: Kerja Dari Rumah
+date: 2020-04-25
+hero: https://images.unsplash.com/photo-1588196749597-9ff075ee6b5b?ixlib=rb-1.2.1&ixid=MnwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&auto=format&fit=crop&w=2274&q=80
+excerpt: Catatan diawal Corona
+categories:
+- journal
+tags:
+- journal
+- corona
+authors:
+- Muhamad Fajar
 
-+++
+---
 Sudah hampir 2 bulan sejak dari [kasus pertama Corona][corona] ditemukan di Indonesia, semua rutinitas berubah secara drastis, dari mulai hal yang paling sering dianggap kecil saat sebelum ada wabah ini seperti cuci tangan atau penggunaan *hand sanitizer*, ya sebelum ada wabah ini mungkin kita tanpa ragu walau telah beraktifitas langsung memegang makanan atau *ngucek* mata, itu semua normal, tapi ya jorok sih apalagi buat hal yang berkaitan dengan makanan.
 
 Hal lain yang berubah adalah kerja dari rumah. Untuk sebagian orang terlebih yang bekerja di *startup*, kerja dari rumah ini merupakan hal yang biasa, namun untuk sebagian lainnya ini merupakan hal yang baru. Saya sendiri sudah melakukan kerja dari rumah atau biasa disebut WFH sejak dari 12 Maret hingga tulisan ini dibuat dan jika mengikuti jadwal dari kantor, kembali masuk di 2 Juni.
