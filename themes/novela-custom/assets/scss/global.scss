@@ -44,6 +44,10 @@
   font-style: normal;
 }
 
+*{
+  box-sizing: border-box;
+}
+
 *,
 *:before,
 *:after {
@@ -74,6 +78,7 @@ body {
   margin: 0;
   font-weight: 400;
   height: 100%;
+  width: 100%;
 }
 
 button,
