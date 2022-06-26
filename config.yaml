@@ -1,15 +1,15 @@
 languageCode: en-us
-baseURL: "https://www.muhfajar.blog/"
+baseURL: https://www.muhfajar.blog/
 title: Muhamad Fajar
 
-buildDrafts: true
+buildDrafts: false
 buildFuture: false
 buildExpored: false
 canonifyURLs: true
 enableRobotsTXT: true
 enableEmoji: true
 
-pygmentsstyle: "monokai"
+pygmentsstyle: monokai
 
 disableRSS: false
 disableSitemap: false
@@ -24,23 +24,23 @@ sitemap:
 
 caches:
   getjson:
-    dir: ":cacheDir/:project"
+    dir: :cacheDir/:project
     maxAge: -1
   getcsv:
-    dir: ":cacheDir/:project"
+    dir: :cacheDir/:project
     maxAge: -1
   images:
-    dir: ":resourceDir/_gen"
+    dir: :resourceDir/_gen
     maxAge: -1
   assets:
-    dir: ":resourceDir/_gen"
+    dir: :resourceDir/_gen
     maxAge: -1
   modules:
-    dir: ":cacheDir/modules"
+    dir: :cacheDir/modules
     maxAge: -1
 
 taxonomies:
-  author: Muhamad Fajar
+  author: authors
   tag: tags
   category: categories
 
@@ -48,9 +48,9 @@ taxonomies:
 theme: novela-custom
 paginate: 6
 social:
-  unsplash: "https://unsplash.com/@muhfajar"
-  github: "https://github.com/muhfajar"
-  linkedin: "https://www.linkedin.com/in/muhfajar"
-  twitter: "https://twitter.com/mufajar_"
-  instagram: "https://instagram.com/_mufajar"
-
+  unsplash: https://unsplash.com/@muhfajar
+  github: https://github.com/muhfajar
+  linkedin: https://www.linkedin.com/in/muhfajar
+  twitter: https://twitter.com/mufajar_
+  instagram: https://instagram.com/_mufajar
+  resume: https://link.muhfajar.id/resume
