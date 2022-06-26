@@ -4,20 +4,16 @@ date: 2014-04-02
 hero: https://images.unsplash.com/photo-1521321205814-9d673c65c167?ixlib=rb-1.2.1&ixid=MnwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&auto=format&fit=crop&w=2948&q=80
 excerpt: How to use Hugo
 categories:
- - development
+- development
 tags:
- - go
- - golang
- - hugo
- - how-to
-
+- go
+- golang
+- hugo
+- how-to
 authors:
- - Hugo Authors
-
-draft: false
+- Hugo Authors
 
 ---
-
 ## Step 1. Install Hugo
 
 Go to [Hugo releases](https://github.com/spf13/hugo/releases) and download the appropriate version for your OS and architecture.
