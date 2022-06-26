@@ -1,21 +1,20 @@
 +++
+authors = ["Muhamad Fajar"]
 categories = ["journal"]
-date = "2020-09-24T07:43:09+0700"
-draft = false
+cover = "django-the-side-project-best-friend.jpg"
+coverCredit = "https://rookie6.github.io/%E6%8A%80%E6%9C%AF/django%E6%95%99%E7%A8%8B%E4%B9%8B%E5%85%A5%E9%97%A8/"
+date = 2020-09-24T00:43:09Z
+excerpt = ""
+hero = ""
 slug = "django-the-side-project-best-friend"
 tags = ["python", "django", "tech", "journal"]
 title = "Django: The Side Project Best Friend"
-type = ["post", "posts"]
 toc = false
-
-cover = "django-the-side-project-best-friend.jpg"
-coverCredit = "https://rookie6.github.io/%E6%8A%80%E6%9C%AF/django%E6%95%99%E7%A8%8B%E4%B9%8B%E5%85%A5%E9%97%A8/"
-
+type = ["post", "posts"]
 [author]
-  name = "Muhamad Fajar"
+name = "Muhamad Fajar"
 
 +++
-
 Ever you heard about Django before? If not, you are like me in early 2016, the year when I first found this gem. I was wondering about a Django since the website says "The web framework for perfectionists with deadlines." ([djangoproject.com][djangoproject]). Me as a person who knows nothing about Django when first read that is like, "really? I must learn this to find out this framework is really for perfectionists with deadlines or just a gimmick".
 
 Long short story, I had read the documentation and try the [project tutorial][django_tut] and surprisingly, what the motto says I think is all true. I only need to write a model and register to the admin view, and voila, create, update, read, and delete for the related a model complete with the dashboard, and the login page is ready to use. Oh, with the migration file as well. Quite promising isn't it.
