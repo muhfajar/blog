@@ -37,4 +37,5 @@ pages:
 - content/post/2020/05/modern-problems-require-modern-solutions.md
 - content/post/2020/07/lebaran-ditengah-pandemi.md
 - content/post/2020/09/django-the-side-project-best-friend.md
+- content/post/2022/06/binding-r2-bucket-to-a-cloudflare-worker-to-serve-object-as-a-public.md
 - content/post/2022/06/s3-new-challenger-cloudflare-r2.md
