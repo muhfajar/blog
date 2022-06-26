@@ -1,7 +1,6 @@
 .pagination{
     z-index: 100;
-    margin: 0;
-    margin-top: 95px;
+    margin: 60px 10px 0 0;
     padding: 0;
     display: -webkit-box;
     display: -ms-flexbox;
@@ -17,7 +16,7 @@
     a:hover{
         color: var(--primary);
     }
-    
+
     .page-item{
         display: block;
         width: auto;

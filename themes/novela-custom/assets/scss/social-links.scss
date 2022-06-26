@@ -1,6 +1,6 @@
 .social-icon-outer{
     width: 20%;
-    min-width: 220px;
+    min-width: 180px;
 }
 
 /*TABLET*/
@@ -52,12 +52,7 @@
 }
 
 .social-icon-container:first-of-type {
-    margin-left: .01em;
-
-    /*TABLET*/
-    @media screen and (max-width: $tablet){
-        margin-left: 0;
-    }
+    margin-left: 0;
 }
 
 .social-icon-container:last-child {
