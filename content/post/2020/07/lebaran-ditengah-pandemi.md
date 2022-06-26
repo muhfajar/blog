@@ -16,8 +16,6 @@ Setelah lebih dari 3 bulan berdiam diri di Jakarta menuruti instruksi pemerintah
 
 Berangkatlah saya untuk perdana ke luar Jakarta setelah sekian lama berdiam, walau tadinya sudah *pe-de* namun rasa khawatir masih menyelimuti. *Bismillah*, berangkat!
 
-{{< giphy src="yHIsnPl1khoU9Ms0Xe" >}}
-
 Di hari-hari awal saya di Bandung, sama dengan yang saya lakukan di Jakarta, hanya berdiam dengan selalu menggunakan masker saat keluar rumah. Setelah satu minggu lebih di Bandung, saya melanjutkan perjalanan dalam rangka silaturahmi ke Ciamis. Begitupun saat di Ciamis, hanya dihabisakan dengan berdiam di rumah.
 
 ...
@@ -26,6 +24,6 @@ Datanglah hari yang ditunggu, hari besar Idul Adha. Pagi-pagi saya sudah bersiap
 
 Namun setelah melihat semangat Mamah untuk melaksanakan shalat ied, yasudahlah, *bismillah* lagi saja. Ihtiar saya datang ke mesjid dengan masker, bawa sarung, bawa sajadah dan yang pentingnya lagi, seperti ilustrasi dibawah ini, jaga jarak.
 
-{{< figure src="https://cdn.muhfajar.blog/static/blog/img/posts/7B89C6F6-A356-49AB-B3B6-1713862FDE89_w1200_r1.jpg" title="Ilustrasi jaga jarak saat melaksanakan shalat; sumber: voabambara.com/a/5477284.html" >}}
+{{< figure src="https://images.unsplash.com/photo-1600066975936-ecc81000c8b6?ixlib=rb-1.2.1&ixid=MnwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&auto=format&fit=crop&w=2088&q=80" caption="Ilustrasi jaga jarak" >}}
 
 Lebaran sekarang memang sedikit berbeda dari lebaran-lebaran yang sebelumnya. Tetap semangat! Semoga pandemi ini segera usai.

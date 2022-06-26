@@ -19,8 +19,6 @@ Langsunglah saya memesan domain tersebut, tidak lama setelah itu saya langsung d
 
 Dan kemudian bingung, saya sudah punya domain [.id][id] yang berisikan blog pribadi, jika saya pindahkan blog itu ke domain *muhfajar.blog* maka apa yang saya harus isi untuk di domain yang sudah lama saya punya itu? terlebih kemampuan saya untuk mendisain halaman web sudah banyak berkurang karena hampir 4 tahun terakhir saya selalu berkecimpung dalam dunia *backend*.
 
-{{< giphy src="ZVik7pBtu9dNS" >}}
-
 Setelah membiarkan situs web pribadi saya dengan domain .id kosong untuk beberapa hari, akhirnya saya menemukan sesuatu yang menurut saya cocok untuk saya pakai di domain .id itu. Waktu itu saya teringat akan situs web yang memberikan *template* HTML secara gratis, mungkin beberapa dari kalian sudah pernah mendengarnya atau bahkan menggunakan *template* dari situs web tersebut, nama dari situs web tersebut adalah [HTML5 UP][html5up].
 
 Jadilah kombinasi dua situs web pribadi saya, satu menggunakan *template* gratis dari HTML5 UP dan satunya menggunakan *static* web *generator* Hugo.

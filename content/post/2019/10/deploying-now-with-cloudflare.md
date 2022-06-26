@@ -15,8 +15,6 @@ authors:
 - Muhamad Fajar
 
 ---
-> This post has been updated with the latest update from Vercel (formerly ZEIT)
-
 I've been playing around with [Now](https://vercel.com/) deployment for a few months. First I thought about Now is magic, with only a small configuration (in v2) I can deploy a static website easily, now I can deploy (with default template) any static website without any configuration. That's amazing.
 
 ## How to Deploy
@@ -31,8 +29,6 @@ now
 That's it. For the rest let Now do the work.
 
 After your project has been deployed, you will be provided with a link to the Preview Deployment, this can be shared **immediately**.
-
-{{< giphy src="3og0IAQG2BtR13joe4" >}}
 
 ## How to Use Cloudflare with Now
 
@@ -69,3 +65,7 @@ To make HTTPS works you need to change Cloudflare’s encryption mode to **Full 
 If your project source code is hosted on [GitHub](https://github.com/), [GitLab](https://about.gitlab.com/) or [Bitbucket](https://bitbucket.org/product/), Vercel has tools to integrate with deployment, so when you push code to the specific branch, Vercel will automatically detect changes and make a deployment. For more information, jump up to [Vercel documentation](https://vercel.com/docs/v2/git-integrations).
 
 End of the word, yes, I'm using Now in my [website landing](https://www.muhfajar.id/ "GitHub"). Next: [Purge Cache with Git Hooks](https://www.muhfajar.blog/post/2019/10/purge-cache-with-git-hooks/).
+
+---
+
+> This post has been updated with the latest update from Vercel (formerly ZEIT)

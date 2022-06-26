@@ -36,8 +36,6 @@ The other project is an internal tool for the attendance system. The attendance 
 
 After quite a lot of projects using Django, I'm more confident using it. Because from the one-month timeline, using Django can cut up to one week, it's something right?
 
-{{< giphy src="JQQwgVUMDIyAM" >}}
-
 And the last thing, fun fact when using this framework, I'm using Django for my assignment test when joining Loket. I have one week to complete the test, but I can finish it for less than a day.
 
 [djangoproject]: https://www.djangoproject.com
