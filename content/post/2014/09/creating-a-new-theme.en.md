@@ -4,19 +4,15 @@ date: 2014-09-28
 hero: https://images.unsplash.com/photo-1573867639040-6dd25fa5f597?ixlib=rb-1.2.1&ixid=MnwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&auto=format&fit=crop&w=2940&q=80
 excerpt: This tutorial will show you how to create a simple theme in Hugo
 categories:
- - development
+- development
 tags:
- - development
- - hugo
- - how-to
-
+- development
+- hugo
+- how-to
 authors:
- - Hugo Authors
-
-draft: false
+- Hugo Authors
 
 ---
-
 ## Introduction
 
 This tutorial will show you how to create a simple theme in Hugo. I assume that you are familiar with HTML, the bash command line, and that you are comfortable using Markdown to format content. I'll explain how Hugo uses templates and how you can organize your templates to create a theme. I won't cover using CSS to style your theme.
