@@ -1,6 +1,6 @@
 ---
 title: Lebaran Ditengah Pandemi
-date: 2020-07-30
+date: 2020-07-30T09:54:00+07:00
 hero: https://images.unsplash.com/photo-1559809928-bd1be8ea204b?ixlib=rb-1.2.1&ixid=MnwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&auto=format&fit=crop&w=2940&q=80
 excerpt: Lebaran pertama yang saya jalani tanpa bisa mudik
 categories:
