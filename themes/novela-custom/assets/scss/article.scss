@@ -44,6 +44,17 @@
     }
 }
 
+.article-info{
+    color: var(--grey);
+    opacity: 0.33;
+
+    /*PHABLET*/
+    @media screen and (max-width: $phablet){
+        max-width: 100%;
+        padding:  0 20px 30px;
+    }
+}
+
 .article-header{
     position: relative;
     z-index: 10;
@@ -502,4 +513,11 @@
 
 .footer-spacer{
     margin-bottom: 65px;
+}
+
+.gist-file{
+    margin: 0 auto 35px;
+    width: 100%;
+    max-width: 750px;
+    border: none;
 }

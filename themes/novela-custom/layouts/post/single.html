@@ -7,6 +7,13 @@
     {{ partial "article/progress" . }}
 
     <article  id="articleContent" class="post-content" style="position:relative;">
+        {{ $ageMonths := div (sub now.Unix .Page.Date.Unix) 2592000 }}
+        {{ if gt $ageMonths 12 }}
+        <div class="article-info">
+            <p>This article was posted over a year ago. The information below could be outdated.</p>
+        </div>
+        {{ end }}
+
         {{ .Content }}
     </article>
 
