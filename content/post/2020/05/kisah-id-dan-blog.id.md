@@ -1,21 +1,20 @@
 +++
+authors = []
 categories = ["journal"]
-date = "2020-05-16T23:30:23+07:00"
-draft = false
+cover = "kisah-id-dan-blog.jpg"
+coverCredit = "https://www.wallpaperup.com/611537/BLOG_blogger_computer_internet_typography_text_media_blogging_social.html"
+date = 2020-05-16T16:30:23Z
+excerpt = ""
+hero = ""
 slug = "kisah-id-dan-blog"
 tags = ["journal", "freebies", "template"]
 title = "Kisah .id dan .blog"
-type = ["post", "posts"]
 toc = false
-
-cover = "kisah-id-dan-blog.jpg"
-coverCredit = "https://www.wallpaperup.com/611537/BLOG_blogger_computer_internet_typography_text_media_blogging_social.html"
-
+type = ["post", "posts"]
 [author]
-  name = "Muhamad Fajar"
+name = "Muhamad Fajar"
 
 +++
-
 Mungkin untuk beberapa orang yang pernah mengunjungi situs web pribadi saya sebelumnya akan merasa pangling saat melihat tema dari halaman utamanya karena sebelumnya halaman utama situs web saya merupakan halaman indeks dari [CMS Hugo][hugo] saja. Karena pada awalnya niat saya hanya untuk membuat situs web pribadi sebagai halaman blog saja. Namun setelah saya melihat situs web pribadi dari [Cody Ogden][cody] (orang dibalik situs web [Killed by Google][graveyard]) saya tertarik untuk mengikuti apa yang dia lakukan untuk halaman blognya. Jika dilihat di situs web pribadi dia, dia memisahkan domain untuk halaman web utamanya dengan halaman untuk blog. Ini cukup menarik bagi saya, terlebih sekarang sudah ada TLD [.blog][blog] yang menurut saya ini keren!
 
 Langsunglah saya memesan domain tersebut, tidak lama setelah itu saya langsung daftarkan domain itu ke akun Cloudflare saya.
