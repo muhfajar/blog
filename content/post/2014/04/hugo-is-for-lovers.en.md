@@ -1,16 +1,22 @@
-+++
-categories = ["development"]
-date = "2014-04-02T18:14:13+07:00"
-series = ["Hugo 101"]
-tags = ["go", "golang", "hugo"]
-title = "Getting Started with Hugo"
-toc = true
-type = ["post", "posts"]
+---
+title: Getting Started with Hugo
+date: 2014-04-02
+hero: https://images.unsplash.com/photo-1521321205814-9d673c65c167?ixlib=rb-1.2.1&ixid=MnwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&auto=format&fit=crop&w=2948&q=80
+excerpt: How to use Hugo
+categories:
+ - development
+tags:
+ - go
+ - golang
+ - hugo
+ - how-to
 
-[author]
-  name = "Hugo Authors"
+authors:
+ - Hugo Authors
 
-+++
+draft: false
+
+---
 
 ## Step 1. Install Hugo
 
@@ -33,14 +39,16 @@ Follow the following steps:
 
 Corresponding pseudo commands:
 
-    git clone https://github.com/spf13/hugo
-    cd hugo
-    /path/to/where/you/installed/hugo server --source=./docs
-    > 29 pages created
-    > 0 tags index created
-    > in 27 ms
-    > Web Server is available at http://localhost:1313
-    > Press ctrl+c to stop
+```shell
+git clone https://github.com/spf13/hugo
+cd hugo
+/path/to/where/you/installed/hugo server --source=./docs
+> 29 pages created
+> 0 tags index created
+> in 27 ms
+> Web Server is available at http://localhost:1313
+> Press ctrl+c to stop
+```
 
 Once you've gotten here, follow along the rest of this page on your local build.
 
@@ -50,13 +58,15 @@ Stop the Hugo process by hitting Ctrl+C.
 
 Now we are going to run hugo again, but this time with hugo in watch mode.
 
-    /path/to/hugo/from/step/1/hugo server --source=./docs --watch
-    > 29 pages created
-    > 0 tags index created
-    > in 27 ms
-    > Web Server is available at http://localhost:1313
-    > Watching for changes in /Users/spf13/Code/hugo/docs/content
-    > Press ctrl+c to stop
+```shell
+/path/to/hugo/from/step/1/hugo server --source=./docs --watch
+> 29 pages created
+> 0 tags index created
+> in 27 ms
+> Web Server is available at http://localhost:1313
+> Watching for changes in /Users/spf13/Code/hugo/docs/content
+> Press ctrl+c to stop
+```
 
 
 Open your [favorite editor](http://vim.spf13.com) and change one of the source content pages. How about changing this very file to *fix the typo*. How about changing this very file to *fix the typo*.
@@ -66,11 +76,13 @@ Content files are found in `docs/content/`. Unless otherwise specified, files ar
 
 Change and save this file.. Notice what happened in your terminal.
 
-    > Change detected, rebuilding site
+```shell
+> Change detected, rebuilding site
 
-    > 29 pages created
-    > 0 tags index created
-    > in 26 ms
+> 29 pages created
+> 0 tags index created
+> in 26 ms
+```
 
 Refresh the browser and observe that the typo is now fixed.
 

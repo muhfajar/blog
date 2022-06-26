@@ -1,16 +1,24 @@
-+++
-categories = ["development"]
-date = "2014-04-02T20:11:21+07:00"
-series = ["Hugo 101"]
-tags = ["go", "golang", "templates", "themes", "development"]
-title = "(Hu)go Template Primer"
-toc = true
-type = ["post", "posts"]
+---
+title: (Hu)go Template Primer
+date: 2014-04-02
+hero: https://images.unsplash.com/photo-1530435460869-d13625c69bbf?ixlib=rb-1.2.1&ixid=MnwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&auto=format&fit=crop&w=2940&q=80
+excerpt: Brief story about Hugo templating
+categories:
+ - development
+tags:
+ - go
+ - golang
+ - templates
+ - themes
+ - development
+ - how-to
 
-[author]
-  name = "Hugo Authors"
+authors:
+ - Hugo Authors
 
-+++
+draft: false
+
+---
 
 Hugo uses the excellent [Go][] [html/template][gohtmltemplate] library for its template engine. It is an extremely lightweight engine that provides a very small amount of logic. In our experience that it is just the right amount of logic to be able to create a good static website. If you have used other template systems from different languages or frameworks you will find a lot of similarities in Go templates.
 
@@ -30,23 +38,31 @@ Golang templates are HTML files with the addition of variables and functions.
 
 Accessing a predefined variable "foo":
 
-    {{ foo }}
+```html
+{{ foo }}
+```
 
 **Parameters are separated using spaces**
 
 Calling the add function with input of 1, 2:
 
-    {{ add 1 2 }}
+```html
+{{ add 1 2 }}
+```
 
 **Methods and fields are accessed via dot notation**
 
 Accessing the Page Parameter "bar"
 
-    {{ .Params.bar }}
+```html
+{{ .Params.bar }}
+```
 
 **Parentheses can be used to group items together**
 
-    {{ if or (isset .Params "alt") (isset .Params "caption") }} Caption {{ end }}
+```html
+{{ if or (isset .Params "alt") (isset .Params "caption") }} Caption {{ end }}
+```
 
 
 ## Variables
@@ -55,13 +71,16 @@ Each Go template has a struct (object) made available to it. In hugo each templa
 
 A variable is accessed by referencing the variable name.
 
-    <title>{{ .Title }}</title>
+```html
+<title>{{ .Title }}</title>
+```
 
 Variables can also be defined and referenced.
 
-    {{ $address := "123 Main St."}}
-    {{ $address }}
-
+```html
+{{ $address := "123 Main St."}} 
+{{ $address }}
+```
 
 ## Functions
 
@@ -69,7 +88,9 @@ Go template ship with a few functions which provide basic functionality. The Go 
 
 **Example:**
 
-    {{ add 1 2 }}
+```html
+{{ add 1 2 }}
+```
 
 ## Includes
 
@@ -77,8 +98,9 @@ When including another template you will pass to it the data it will be able to 
 
 **Example:**
 
-    {{ template "chrome/header.html" . }}
-
+```html
+{{ template "chrome/header.html" . }}
+```
 
 ## Logic
 
@@ -90,22 +112,28 @@ Just like in Go, the Go templates make heavy use of range to iterate over a map,
 
 **Example 1: Using Context**
 
-    {{ range array }}
-        {{ . }}
-    {{ end }}
+```html
+{{ range array }}
+    {{ . }}
+{{ end }}
+```
 
 **Example 2: Declaring value variable name**
 
-    {{range $element := array}}
-        {{ $element }}
-    {{ end }}
+```html
+{{range $element := array}}
+    {{ $element }}
+{{ end }}
+```
 
 **Example 2: Declaring key and value variable name**
 
-    {{range $index, $element := array}}
-        {{ $index }}
-        {{ $element }}
-    {{ end }}
+```html
+{{range $index, $element := array}}
+    {{ $index }}
+    {{ $element }}
+{{ end }}
+```
 
 ### Conditionals
 
@@ -120,19 +148,25 @@ Go Templates treat the following values as false:
 
 **Example 1: If**
 
-    {{ if isset .Params "title" }}<h4>{{ index .Params "title" }}</h4>{{ end }}
+```html
+{{ if isset .Params "title" }}<h4>{{ index .Params "title" }}</h4>{{ end }}
+```
 
 **Example 2: If -> Else**
 
-    {{ if isset .Params "alt" }}
-        {{ index .Params "alt" }}
-    {{else}}
-        {{ index .Params "caption" }}
-    {{ end }}
+```html
+{{ if isset .Params "alt" }}
+    {{ index .Params "alt" }}
+{{else}}
+    {{ index .Params "caption" }}
+{{ end }}
+```
 
 **Example 3: And & Or**
 
-    {{ if and (or (isset .Params "title") (isset .Params "caption")) (isset .Params "attr")}}
+```html
+{{ if and (or (isset .Params "title") (isset .Params "caption")) (isset .Params "attr")}}
+```
 
 **Example 4: With**
 
@@ -140,15 +174,19 @@ An alternative way of writing "if" and then referencing the same value is to use
 
 The first example above could be simplified as:
 
-    {{ with .Params.title }}<h4>{{ . }}</h4>{{ end }}
+```html
+{{ with .Params.title }}<h4>{{ . }}</h4>{{ end }}
+```
 
 **Example 5: If -> Else If**
 
-    {{ if isset .Params "alt" }}
-        {{ index .Params "alt" }}
-    {{ else if isset .Params "caption" }}
-        {{ index .Params "caption" }}
-    {{ end }}
+```html
+{{ if isset .Params "alt" }}
+    {{ index .Params "alt" }}
+{{ else if isset .Params "caption" }}
+    {{ index .Params "caption" }}
+{{ end }}
+```
 
 ## Pipes
 
@@ -160,31 +198,41 @@ A few simple examples should help convey how to use the pipe.
 
 **Example 1 :**
 
-    {{ if eq 1 1 }} Same {{ end }}
+```html
+{{ if eq 1 1 }} Same {{ end }}
+```
 
 is the same as
 
-    {{ eq 1 1 | if }} Same {{ end }}
+```html
+{{ eq 1 1 | if }} Same {{ end }}
+```
 
 It does look odd to place the if at the end, but it does provide a good illustration of how to use the pipes.
 
 **Example 2 :**
 
-    {{ index .Params "disqus_url" | html }}
+```html
+{{ index .Params "disqus_url" | html }}
+```
 
 Access the page parameter called "disqus_url" and escape the HTML.
 
 **Example 3 :**
 
-    {{ if or (or (isset .Params "title") (isset .Params "caption")) (isset .Params "attr")}}
-    Stuff Here
-    {{ end }}
+```html
+{{ if or (or (isset .Params "title") (isset .Params "caption")) (isset .Params "attr")}}
+Stuff Here
+{{ end }}
+```
 
 Could be rewritten as
 
-    {{  isset .Params "caption" | or isset .Params "title" | or isset .Params "attr" | if }}
-    Stuff Here
-    {{ end }}
+```html
+{{  isset .Params "caption" | or isset .Params "title" | or isset .Params "attr" | if }}
+Stuff Here
+{{ end }}
+```
 
 
 ## Context (aka. the dot)
@@ -193,10 +241,12 @@ The most easily overlooked concept to understand about Go templates is that {{ .
 
 **Example:**
 
-      {{ $title := .Site.Title }}
-      {{ range .Params.tags }}
-        <li> <a href="{{ $baseurl }}/tags/{{ . | urlize }}">{{ . }}</a> - {{ $title }} </li>
-      {{ end }}
+```html
+{{ $title := .Site.Title }}
+{{ range .Params.tags }}
+  <li> <a href="{{ $baseurl }}/tags/{{ . | urlize }}">{{ . }}</a> - {{ $title }} </li>
+{{ end }}
+```
 
 Notice how once we have entered the loop the value of {{ . }} has changed. We have defined a variable outside of the loop so we have access to it from within the loop.
 
@@ -213,7 +263,7 @@ An example of this is used in this documentation site. Most of the pages benefit
 
 Here is the example front matter:
 
-```
+```yaml
 ---
 title: "Permalinks"
 date: "2013-11-18"
@@ -227,13 +277,13 @@ notoc: true
 
 Here is the corresponding code inside of the template:
 
-      {{ if not .Params.notoc }}
-        <div id="toc" class="well col-md-4 col-sm-6">
-        {{ .TableOfContents }}
-        </div>
-      {{ end }}
-
-
+```html
+{{ if not .Params.notoc }}
+  <div id="toc" class="well col-md-4 col-sm-6">
+  {{ .TableOfContents }}
+  </div>
+{{ end }}
+```
 
 ## Using Site (config) Parameters
 In your top-level configuration file (eg, `config.yaml`) you can define site parameters, which are values which will be available to you in chrome.
@@ -249,7 +299,7 @@ params:
 
 Within a footer layout, you might then declare a `<footer>` which is only provided if the `CopyrightHTML` parameter is provided, and if it is given, you would declare it to be HTML-safe, so that the HTML entity is not escaped again.  This would let you easily update just your top-level config file each January 1st, instead of hunting through your templates.
 
-```
+```html
 {{if .Site.Params.CopyrightHTML}}<footer>
 <div class="text-center">{{.Site.Params.CopyrightHTML | safeHtml}}</div>
 </footer>{{end}}
@@ -257,7 +307,7 @@ Within a footer layout, you might then declare a `<footer>` which is only provid
 
 An alternative way of writing the "if" and then referencing the same value is to use "with" instead. With rebinds the context `.` within its scope, and skips the block if the variable is absent:
 
-```
+```html
 {{with .Site.Params.TwitterUser}}<span class="twitter">
 <a href="https://twitter.com/{{.}}" rel="author">
 <img src="/images/twitter.png" width="48" height="48" title="Twitter: {{.}}"
@@ -267,7 +317,7 @@ An alternative way of writing the "if" and then referencing the same value is to
 
 Finally, if you want to pull "magic constants" out of your layouts, you can do so, such as in this example:
 
-```
+```html
 <nav class="recent">
   <h1>Recent Posts</h1>
   <ul>{{range first .Site.Params.SidebarRecentLimit .Site.Recent}}

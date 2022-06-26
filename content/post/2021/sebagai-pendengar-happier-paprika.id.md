@@ -28,8 +28,6 @@ Diluar liriknya yang emang nuansa patah hati banget, lagu itu dibawain dengan en
 
 ---
 
-Untuk lagi yang kedua, yaitu **Paprika** dari **Japanese Breakfast**, kalo ini 
-
-
+Untuk lagi yang kedua, yaitu **Paprika** dari **Japanese Breakfast**, kalo ini
 
 {{< youtube zqrEVwTnlF4 >}}

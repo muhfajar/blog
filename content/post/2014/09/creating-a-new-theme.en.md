@@ -1,17 +1,21 @@
-+++
-categories = ["development"]
-date = "2014-09-28T16:08:01+07:00"
-series = ["Hugo 101"]
-tags = ["development", "hugo"]
-title = "Creating a New Theme"
-toc = true
-type = ["post", "posts"]
-weight = 10
+---
+title: Creating a New Theme
+date: 2014-09-28
+hero: https://images.unsplash.com/photo-1573867639040-6dd25fa5f597?ixlib=rb-1.2.1&ixid=MnwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&auto=format&fit=crop&w=2940&q=80
+excerpt: This tutorial will show you how to create a simple theme in Hugo
+categories:
+ - development
+tags:
+ - development
+ - hugo
+ - how-to
 
-[author]
-  name = "Michael Henderson"
+authors:
+ - Hugo Authors
 
-+++
+draft: false
+
+---
 
 ## Introduction
 

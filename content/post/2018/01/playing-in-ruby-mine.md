@@ -1,21 +1,22 @@
-+++
-categories = ["tech"]
-date = "2018-01-06T12:52:59+07:00"
-draft = false
-series = ["Ruby"]
-slug = "playing-in-ruby-mine"
-tags = ["ruby", "tech", "programing-language", "rails"]
-title = "Playing in Ruby Mine"
-type = ["post", "posts"]
-toc = false
+---
+title: Playing in Ruby Mine
+date: 2018-01-06
+hero: https://images.unsplash.com/photo-1551122102-63cd339bfaab?ixlib=rb-1.2.1&ixid=MnwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&auto=format&fit=crop&w=2942&q=80
+excerpt: My journey using Ruby on the first time
+categories:
+ - tech
+tags:
+ - ruby
+ - tech
+ - programing-language
+ - rails
 
-cover = "playing-in-ruby-mine.jpg"
-coverCredit = "https://hipwallpaper.com/view/IZMBfm"
+authors:
+ - Muhamad Fajar
 
-[author]
-  name = "Muhamad Fajar"
+draft: false
 
-+++
+---
 
 I started as Ruby dev in my new job, previously I worked as PHP and Python dev and I found Ruby is slightly different sometimes especially with PHP. First time I read Ruby documentation, Ruby syntax is familiar, that looks like Python with some additional word every end of a function. For example:
 
@@ -23,6 +24,7 @@ I started as Ruby dev in my new job, previously I worked as PHP and Python dev a
 def foo():
     print('bar')
 ```
+
 ```ruby
 def foo
     puts 'bar'
@@ -30,8 +32,6 @@ end
 ```
 
 For framework Ruby have Rails (not only Rails actually, many framework out there) and when I came to my new job, I have only 3 days to learn what Ruby is and what is Rails, so basically I am learning by doing after my quick learn from digging up Ruby and Rails documentation.
-
-{{< giphy src="13HBDT4QSTpveU" >}}
 
 On my first Jira task, I really struggle to find out *magic* behind Rails, a lot of class or module not implicitly import to another class, but I can use that class easily. Different with Django, you must import or define anything you plan to use. In Rails as long as your naming conventions follow documentation you can save a few lines of code (except you're using unofficial Rails Gem, you must import class using 'use' command)
 

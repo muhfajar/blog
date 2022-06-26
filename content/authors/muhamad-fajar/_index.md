@@ -1,7 +1,8 @@
 ---
 title: Muhamad Fajar
 bio: | 
-  
+  Full-snack developer, a self-taught person, an amateur mobile photographer,
+  on the weekdays working on GoTix on the weekend gowes.
 avatar: /images/fajar-author.jpeg
 featured: true
 social:
