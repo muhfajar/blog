@@ -2,7 +2,7 @@
 title: Markdown Syntax Guide
 date: 2019-03-11
 hero: https://images.unsplash.com/photo-1482062364825-616fd23b8fc1?ixlib=rb-1.2.1&ixid=MnwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&auto=format&fit=crop&w=2940&q=80
-excerpt: Sample article showcasing basic Markdown syntax and formatting for HTML elements.
+excerpt: Sample article showcasing basic Markdown syntax and formatting for HTML elements
 categories:
  - development
 tags:
@@ -75,7 +75,6 @@ Tables aren't part of the core Markdown spec, but Hugo supports supports them ou
 #### Code block with backticks
 
 ```html
-html
 <!DOCTYPE html>
 <html lang="en">
 <head>
@@ -89,6 +88,7 @@ html
 ```
 
 #### Code block with Hugo's internal highlight shortcode
+
 {{< highlight html >}}
 <!DOCTYPE html>
 <html lang="en">

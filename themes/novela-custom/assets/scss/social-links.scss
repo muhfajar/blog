@@ -23,12 +23,21 @@
             justify-content: space-between;
     min-width: 100%;
     position: relative;
-    margin-left: 3.2rem;
     text-decoration: none;
     max-width: 16px;
+    margin-left: 3.2rem;
 
     a{
-        margin-right: 25px;
+        margin-right: 28px;
+    }
+
+    /*TABLET*/
+    @media screen and (max-width: $tablet){
+        margin: 0;
+
+        a{
+            margin: 0;
+        }
     }
 }
 
@@ -43,7 +52,12 @@
 }
 
 .social-icon-container:first-of-type {
-    margin-left: 0;
+    margin-left: .01em;
+
+    /*TABLET*/
+    @media screen and (max-width: $tablet){
+        margin-left: 0;
+    }
 }
 
 .social-icon-container:last-child {
@@ -64,8 +78,8 @@
 }
 
 .hidden{
-    width: 0px;
-    height: 0px;
+    width: 0;
+    height: 0;
     visibility: hidden;
     opacity: 0;
     overflow: hidden;
