@@ -23,3 +23,5 @@ fields:
 - type: list
   name: authors
   label: authors
+pages:
+- content/post/2018/01/playing-in-ruby-mine.md
