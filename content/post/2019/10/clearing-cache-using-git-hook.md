@@ -4,7 +4,7 @@ categories = ["tech"]
 cover = "purge-cache-with-git-hooks.jpg"
 coverCredit = "https://wall.alphacoders.com/big.php?i=888391"
 date = 2019-10-21T04:22:17Z
-excerpt = ""
+excerpt = "The simply way to purge Cloudflare cache every codes has changed"
 hero = "https://images.unsplash.com/photo-1604417429445-2ef33ea36574?ixlib=rb-1.2.1&ixid=MnwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&auto=format&fit=crop&w=2834&q=80"
 slug = "purge-cache-with-git-hooks"
 tags = ["how-to", "cloud", "tech", "git", "cloudflare"]
