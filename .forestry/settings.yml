@@ -25,6 +25,7 @@ sections:
   match: "**/*"
   templates:
   - author
+  - author
 upload_dir: static/uploads
 public_path: "/uploads"
 front_matter_path: ''
