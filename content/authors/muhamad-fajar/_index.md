@@ -4,7 +4,7 @@ bio: 'Full-snack developer, a self-taught person, and an amateur mobile photogra
   Weekdays GoTix, weekend gowes.
 
   '
-avatar: "/uploads/2f55fcb9-23c1-417c-8ee4-7af79de093fd_1_105_c.jpeg"
+avatar: "/uploads/a93f8335-f3b4-4005-970b-00ef7c73dae1_1_201_a.jpeg"
 featured: true
 social:
 - title: github
