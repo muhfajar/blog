@@ -5,7 +5,6 @@ fields:
 - type: text
   name: title
   label: Title
-  description: Title
 - type: textarea
   name: bio
   label: Bio
