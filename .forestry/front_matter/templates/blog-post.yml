@@ -8,8 +8,10 @@ fields:
 - type: datetime
   name: date
   label: date
-- type: textarea
-  name: hero
+- name: hero
+  type: file
+  config:
+    maxSize: 64
   label: hero
 - type: text
   name: excerpt
