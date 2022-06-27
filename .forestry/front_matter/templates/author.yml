@@ -4,26 +4,26 @@ hide_body: true
 fields:
 - type: text
   name: title
-  label: title
+  label: Title
 - type: textarea
   name: bio
-  label: bio
+  label: Bio
 - type: file
   name: avatar
-  label: avatar
+  label: Avatar
 - type: boolean
   name: featured
-  label: featured
+  label: Is Featured?
 - type: field_group_list
   name: social
-  label: social
+  label: Social
   fields:
   - type: text
     name: title
-    label: title
+    label: Title
   - type: text
     name: url
-    label: url
+    label: URL
 pages:
 - content/authors/hugo-authors/_index.md
 - content/authors/muhamad-fajar/_index.md
