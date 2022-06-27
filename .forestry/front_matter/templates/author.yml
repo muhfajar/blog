@@ -24,3 +24,6 @@ fields:
   - type: text
     name: url
     label: url
+pages:
+- content/authors/hugo-authors/_index.md
+- content/authors/muhamad-fajar/_index.md
