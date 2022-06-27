@@ -1,50 +1,43 @@
+---
 languageCode: en-us
 baseURL: https://www.muhfajar.blog/
 title: Muhamad Fajar
-
 buildDrafts: false
 buildFuture: false
 buildExpored: false
 canonifyURLs: true
 enableRobotsTXT: true
 enableEmoji: true
-
 pygmentsstyle: monokai
-
 disableRSS: false
 disableSitemap: false
 disable404: false
 disableHugoGeneratorInject: false
 rssLimit: 5
-
 sitemap:
   changefreq: monthly
   filename: sitemap.xml
   priority: 0.5
-
 caches:
   getjson:
-    dir: :cacheDir/:project
+    dir: ":cacheDir/:project"
     maxAge: -1
   getcsv:
-    dir: :cacheDir/:project
+    dir: ":cacheDir/:project"
     maxAge: -1
   images:
-    dir: :resourceDir/_gen
+    dir: ":resourceDir/_gen"
     maxAge: -1
   assets:
-    dir: :resourceDir/_gen
+    dir: ":resourceDir/_gen"
     maxAge: -1
   modules:
-    dir: :cacheDir/modules
+    dir: ":cacheDir/modules"
     maxAge: -1
-
 taxonomies:
   author: authors
   tag: tags
   category: categories
-
-# Novela config
 theme: novela-custom
 metaDataFormat: yaml
 paginate: 8
