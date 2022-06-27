@@ -2,6 +2,11 @@
 label: Main Hero
 hide_body: true
 fields:
+- name: title
+  type: text
+  config:
+    required: false
+  label: title
 - type: field_group
   name: hero
   label: hero
