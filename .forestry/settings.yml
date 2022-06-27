@@ -14,6 +14,8 @@ sections:
   label: Post
   create: all
   match: "**/*"
+  templates:
+  - blog-post
 - type: directory
   path: content/authors
   label: Authors
