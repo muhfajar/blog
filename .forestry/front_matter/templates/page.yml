@@ -4,6 +4,6 @@ hide_body: false
 fields:
 - type: text
   name: title
-  label: title
+  label: Title
 pages:
 - content/about.md
