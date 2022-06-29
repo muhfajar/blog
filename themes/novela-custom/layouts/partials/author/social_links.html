@@ -2,7 +2,7 @@
     <div class="social-icon-container">
         {{ range $component := .Params.social }}
             {{ $path := print "icons/social/" .title }}
-            <a href="{{ .url }}" aria-label="{{ .url }}" data-microtip-position="top" role="tooltip">{{ partial $path $ }}</a>
+            <a href="{{ .url }}" target="_blank" aria-label="{{ .url }}" data-microtip-position="top" role="tooltip">{{ partial $path $ }}</a>
             <span class="hidden">{{ .url }}</span>
         {{ end }}
     </div>

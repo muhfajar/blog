@@ -5,7 +5,7 @@
         <div class="footer-text">
             &copy <!--suppress JSCheckFunctionSignatures -->
             {{ dateFormat "2006" now }} {{ .Site.Title }} &bull;
-            <a href="https://github.com/muhfajar/blog/commits/master" target="_blank" id="git">Latest Changes</a>
+            <a href="https://github.com/muhfajar/blog/commits/master" target="_blank" id="git" aria-label="Latest changes" data-microtip-position="right" role="tooltip">Latest changes</a>
         </div>
         {{ partial "social-links/social-links.html" . }}
     </div>
