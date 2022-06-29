@@ -1,6 +1,6 @@
 .social-icon-outer{
-    width: 20%;
-    min-width: 180px;
+    display: flex;
+    justify-content: right;
 }
 
 /*TABLET*/
@@ -13,31 +13,20 @@
 .social-icon-container{
     display: -webkit-box;
     display: -ms-flexbox;
+    text-decoration: none;
     display: flex;
+    justify-content: center;
     -webkit-box-orient: horizontal;
     -webkit-box-direction: normal;
         -ms-flex-direction: row;
             flex-direction: row;
-    -webkit-box-pack: justify;
-        -ms-flex-pack: justify;
-            justify-content: space-between;
-    min-width: 100%;
-    position: relative;
-    text-decoration: none;
-    max-width: 16px;
-    margin-left: 3.2rem;
 
     a{
-        margin-right: 28px;
+        padding: 0 1rem 0 1rem;
     }
 
-    /*TABLET*/
-    @media screen and (max-width: $tablet){
-        margin: 0;
-
-        a{
-            margin: 0;
-        }
+    a:nth-child(11){
+        padding: 0 0 0 1rem;
     }
 }
 
