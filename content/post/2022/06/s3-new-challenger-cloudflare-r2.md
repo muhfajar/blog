@@ -23,5 +23,5 @@ I love Cloudflare, not because it's free, but because it has many features that 
 | Provider | Storage Cost for 250GB | Pros |
 | --- | --- | --- |
 | Cloudflare R2 | $0.015 / GB = $3.75 per month | Free for 10 GB / month |
-| Amazon S3 (Jakarta) | $0.025 / GB = $6.25 per month | 
+| Amazon S3 (Jakarta) | $0.025 / GB = $6.25 per month | Multiple region |
 | DigitalOcean Spaces | $5 per month | Flat pricing |
