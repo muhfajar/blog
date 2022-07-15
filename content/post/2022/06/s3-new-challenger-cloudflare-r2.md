@@ -24,4 +24,4 @@ I love Cloudflare, not because it's free, but because it has many features that 
 | --- | --- | --- | --- |
 | [Cloudflare R2](https://developers.cloudflare.com/r2/platform/pricing/) | $0.015 / GB = $3.75 per month | Free for 10 GB / month | Need to create worker to serve public (Beta) |
 | [Amazon S3 (Jakarta)](https://aws.amazon.com/s3/pricing/) | $0.025 / GB = $6.25 per month | Multiple region |  |
-| DigitalOcean Spaces | $5 per month | Flat pricing, montly price include 1TB outbound transfer | Usage less than 250GB could be more pricy |
+| [DigitalOcean Spaces](https://www.digitalocean.com/pricing/spaces-object-storage) | $5 per month | Flat pricing, montly price include 1TB outbound transfer | Usage less than 250GB could be more pricy |
