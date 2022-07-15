@@ -18,11 +18,10 @@ authors:
 draft: true
 
 ---
-I love Cloudflare, not because it's free, but because it has many features that I need, like caching, routing, serving the static page, and object storage, etc etc.
+I love Cloudflare, not because it's free, but because it has many features that I need, like caching, routing, serving the static page, object storage, etc etc.
 
-
- Provider            | Storage Cost for 250GB         
----------------------|-------------------------------
- Cloudflare R2       | $0.015 / GB = $3.75 per month 
- Amazon S3 (Jakarta) | $0.025 / GB = $6.25 per month 
- DigitalOcean Spaces | $5 per month
+| Provider | Storage Cost for 250GB |
+| --- | --- |
+| Cloudflare R2 | $0.015 / GB = $3.75 per month |
+| Amazon S3 (Jakarta) | $0.025 / GB = $6.25 per month |
+| DigitalOcean Spaces | $5 per month |
