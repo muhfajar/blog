@@ -18,12 +18,17 @@ authors:
 draft: true
 
 ---
-I love Cloudflare, not because it's free, but because it has many features that I need, like caching, routing, serving the static page, object storage, etc etc.
+I love Cloudflare, it has many features that I need, like caching, routing, serving the static page, etc etc, and the best is all of those features that came with the free tier!
 
+From all features that I love, now Cloudflare has a new object storage service, called R2 which stands for "[Really Requestable](https://blog.cloudflare.com/introducing-r2-object-storage/ "Announcing Cloudflare R2")" (currently still in the public beta stage). When I see the R2 menu in the Cloudflare dashboard, the first I thought was, _is it good and worth trying? Am I really need to migrate my storage and save $5 every month?_
 
+For context: I have a similar service for serving static assets for my project, that lives in [DigitalOcean Spaces](https://www.digitalocean.com/products/spaces "DigitalOcean Spaces").
+
+<cite>Comparison Storage Cost [^1]</cite>
+[^1]: Data I took from the official page of each provider.
 
 | Provider | Storage Cost for 250GB | Pros | Cons |
 | --- | --- | --- | --- |
-| [Cloudflare R2](https://developers.cloudflare.com/r2/platform/pricing/) | $0.015 / GB = $3.75 per month | Free for 10 GB / month | Need to create worker to serve public (Beta) |
-| [Amazon S3 (Jakarta)](https://aws.amazon.com/s3/pricing/) | $0.025 / GB = $6.25 per month | Multiple region |  |
-| [DigitalOcean Spaces](https://www.digitalocean.com/pricing/spaces-object-storage) | $5 per month | Flat pricing, montly price include 1TB outbound transfer | Usage less than 250GB could be more pricy |
+| Cloudflare R2 | $0.015 / GB = $3.75 per month | Free for 10 GB / month | Need to create worker to serve public (Beta) |
+| Amazon S3 (Jakarta) | $0.025 / GB = $6.25 per month | Free for 5 GB / month | It has a complex pricing schema |
+| DigitalOcean Spaces | $5 per month | Flat pricing, montly price include 1TB outbound transfer | Usage less than 250GB could be more pricy |
