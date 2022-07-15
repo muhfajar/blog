@@ -18,7 +18,7 @@ authors:
 draft: true
 
 ---
-I love Cloudflare, not because it's free, but because it has many features that I need, like caching, routing, serving the static page, and object storage (this one is not free, but much more cheap compared to the similar service) etc etc.
+I love Cloudflare, not because it's free, but because it has many features that I need, like caching, routing, serving the static page, and object storage, etc etc.
 
 
  Provider            | Storage Cost for 250GB         
