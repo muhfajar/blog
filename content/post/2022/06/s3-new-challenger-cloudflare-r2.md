@@ -20,6 +20,8 @@ draft: true
 ---
 I love Cloudflare, not because it's free, but because it has many features that I need, like caching, routing, serving the static page, object storage, etc etc.
 
+
+
 | Provider | Storage Cost for 250GB | Pros | Cons |
 | --- | --- | --- | --- |
 | [Cloudflare R2](https://developers.cloudflare.com/r2/platform/pricing/) | $0.015 / GB = $3.75 per month | Free for 10 GB / month | Need to create worker to serve public (Beta) |
