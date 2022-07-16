@@ -493,25 +493,30 @@
         content: '';
         position: absolute;
         background: var(--grey);
-        width: 62%;
+        width: 70%;
         max-width: 100%;
         height: 1px;
         right: 0;
         top: 50%;
 
+        /*DESKTOP*/
+        @media screen and (max-width: $desktop){
+            width: 55%;
+        }
+
         /*TABLET*/
         @media screen and (max-width: $tablet){
-          width: 41.7%;
+            width: 20%;
         }
 
         /*PHABLET*/
         @media screen and (max-width: $phablet){
-            width: 27.8%;
+            width: 10%;
         }
 
         /*PHONE*/
         @media screen and (max-width: $phone){
-            width: 90px;
+            width: 5%;
         }
     }
 }

@@ -22,11 +22,6 @@ figure img{
   @media screen and (max-width: $phablet){
     margin: 0 auto;
     width: calc(100vw - 40px);
-    height: 220px;
-
-    & > div {
-      height: 220px;
-    }
   }
 }
 
