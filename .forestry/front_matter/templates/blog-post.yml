@@ -1,5 +1,5 @@
 ---
-label: Blog post
+label: Blog Post
 hide_body: false
 display_field: title
 fields:
@@ -14,6 +14,15 @@ fields:
   config:
     required: false
   label: Hero
+- name: hero_title
+  type: textarea
+  default: ''
+  config:
+    required: false
+    wysiwyg: false
+    schema:
+      format: markdown
+  label: Hero Title
 - type: text
   name: excerpt
   label: Excerpt
