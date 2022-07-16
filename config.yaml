@@ -35,9 +35,9 @@ caches:
     dir: ":cacheDir/modules"
     maxAge: -1
 params:
-  imgEdgeCacheTiny: https://img.weeknd.dev/w=320_q=70_output=webp/
-  imgEdgeCacheSmall: https://img.weeknd.dev/w=720_q=70_output=webp/
-  imgEdgeCacheLarge: https://img.weeknd.dev/w=1080_q=80_output=webp/
+  imgEdgeCacheTiny: https://edge-resizer.weeknd.dev/w=320_q=70_output=webp/
+  imgEdgeCacheSmall: https://edge-resizer.weeknd.dev/w=720_q=70_output=webp/
+  imgEdgeCacheLarge: https://edge-resizer.weeknd.dev/w=1080_q=80_output=webp/
 taxonomies:
   author: authors
   tag: tags
