@@ -42,4 +42,4 @@ pages:
 - content/post/2020/09/django-the-side-project-best-friend.md
 - content/post/2022/03/one-week-journey-with-go-zero.md
 - content/post/2022/06/binding-r2-bucket-to-a-cloudflare-worker-to-serve-object-as-a-public.md
-- content/post/2022/06/s3-new-challenger-cloudflare-r2.md
+- content/post/2022/06/cloudflare-r2-the-new-s3-alternative.md
