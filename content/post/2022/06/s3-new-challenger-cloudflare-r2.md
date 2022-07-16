@@ -18,15 +18,17 @@ authors:
 draft: true
 
 ---
-I love Cloudflare, it has many features that I need, like caching, routing, serving the static page, etc etc, and the best is all of those features that came with the free tier!
+I love Cloudflare, it has many features that I need, like [caching](https://www.muhfajar.blog/post/2019/10/clearing-cache-using-git-hook/ "Purge Cache with Git Hooks"), routing, serving the static page, etc etc, and the best is all of those features that came with the free tier!
 
 From all features that I love, now Cloudflare has a new object storage service, called R2 which stands for "[Really Requestable](https://blog.cloudflare.com/introducing-r2-object-storage/ "Announcing Cloudflare R2")" (currently still in the public beta stage). When I see the R2 menu in the Cloudflare dashboard, the first I thought was, _is it good and worth trying? Am I really need to migrate my storage and save $5 every month?_
 
 To be clear, I have a similar service for serving static assets for my project, that lives in [DigitalOcean Spaces](https://www.digitalocean.com/products/spaces "DigitalOcean Spaces"), which has a monthly cost of about $5 and the R2 is free for the first 10GB every month, then since my storage in DigitalOcean no more than 10GB, switching could be easy and good to go I guess.
 
-<cite>Comparison Storage Cost \[^1\]</cite>
+Both of them have a similar feature that S3-compatible object storage, my project code could just change the base URL and some credentials regarding the new service. After some research (because the R2 is still in the Beta stage) the major difference from DigitalOcean Space is that R2 need to manually create the service to make the file exposed in public. The service itself is using [Cloudflare Worker](https://developers.cloudflare.com/r2/get-started/#5-access-your-r2-bucket-from-your-worker "Cloudflare Worker").
 
-\[^1\]: Data I took from the official page of each provider.
+<cite>Comparison Storage Cost [^1]</cite>
+
+[^1]: Data I took from the official page of each provider.
 
 | Provider | Storage Cost for 250GB | Pros | Cons |
 | --- | --- | --- | --- |
