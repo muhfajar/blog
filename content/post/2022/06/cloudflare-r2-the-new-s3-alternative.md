@@ -27,9 +27,9 @@ To be clear, I have a similar service for serving static assets for my project, 
 
 Both of them have a similar feature that S3-compatible object storage, my project code could just change the base URL and some credentials regarding the new service. After some research (because the R2 is still in the Beta stage) the major difference from DigitalOcean Space is that R2 need to manually create the service to make the file exposed in public. The service itself is using [Cloudflare Worker](https://developers.cloudflare.com/r2/get-started/#5-access-your-r2-bucket-from-your-worker "Cloudflare Worker"), [on the next post will explain how to serve the R2 as a public](https://www.muhfajar.blog/post/2022/06/binding-r2-bucket-to-a-cloudflare-worker-to-serve-object-as-a-public/ "Binding R2 Bucket to a Cloudflare Worker to Serve Object as a Public").
 
-<cite>Comparison Storage Cost [^1]</cite>
+ <cite>Comparison Storage Cost [^1]</cite>
 
-[^1]: Data I took from the official page of each provider.
+ [^1]: Data I took from the official page of each provider.
 
 | Provider | Storage Cost for 250GB | Pros | Cons |
 | --- | --- | --- | --- |
@@ -37,4 +37,4 @@ Both of them have a similar feature that S3-compatible object storage, my projec
 | [Amazon S3 (Jakarta)](https://aws.amazon.com/s3/pricing/ "Amazon S3") | $0.025 / GB = $6.25 per month | Free for 5 GB / month | It has a complex pricing schema |
 | [DigitalOcean Spaces](https://www.digitalocean.com/products/spaces "DigitalOcean Spaces") | $5 per month | Flat pricing, montly price include 1TB outbound transfer | Usage less than 250GB could be more pricy |
 
-For the complete list of S3 API compatibility, please take a look [at this page](https://developers.cloudflare.com/r2/platform/s3-compatibility/api/ "S3 API compatibility").
+If you have a plan to migrate your service to R2, please consider not all S3 APIs are currently supported by R2, for the complete list of S3 API compatibility, please take a look [at this page](https://developers.cloudflare.com/r2/platform/s3-compatibility/api/ "S3 API compatibility").
