@@ -1,7 +1,7 @@
 ---
 title: Deploying Now with Cloudflare
 date: 2019-10-14T08:43:00+07:00
-hero: images.unsplash.com/photo-1548695607-9c73430ba065?ixlib=rb-1.2.1&ixid=MnwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&auto=format&fit=crop&w=2825&q=80
+hero: images.unsplash.com/photo-1548695607-9c73430ba065
 excerpt: First I thought about Now is magic, with only a small configuration, I can
   deploy a static website easily
 categories:

@@ -1,7 +1,7 @@
 ---
 title: Kisah .id dan .blog
 date: 2020-05-16T07:13:00+07:00
-hero: images.unsplash.com/photo-1486312338219-ce68d2c6f44d?ixlib=rb-1.2.1&ixid=MnwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&auto=format&fit=crop&w=2944&q=80
+hero: images.unsplash.com/photo-1486312338219-ce68d2c6f44d
 excerpt: Ide dibalik pemisahan domain utama dan blog
 categories:
 - journal

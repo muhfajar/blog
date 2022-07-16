@@ -2,7 +2,7 @@
     {{- if .Get "link" -}}
         <a href="{{ .Get "link" }}"{{ with .Get "target" }} target="{{ . }}"{{ end }}{{ with .Get "rel" }} rel="{{ . }}"{{ end }}>
     {{- end -}}
-    <img src="{{ $.Site.Params.imgEdgeCacheSmall }}{{ .Get "src" }}"
+    <img src="{{ $.Site.Params.imgEdgeCacheLarge }}{{ .Get "src" }}"
          {{- if or (.Get "alt") (.Get "caption") }}
          alt="{{ with .Get "alt" }}{{ . }}{{ else }}{{ .Get "caption" | markdownify| plainify }}{{ end }}"
          {{- end -}}
@@ -15,7 +15,7 @@
             {{ with (.Get "title") -}}
                 <h4>{{ . }}</h4>
             {{- end -}}
-            {{- if or (.Get "caption") (.Get "attr") -}}<p>
+            {{- if or (.Get "caption") (.Get "attr") -}}<p>fig:&nbsp;
                 {{- .Get "caption" | markdownify -}}
                 {{- with .Get "attrlink" }}
                     <a href="{{ . }}">

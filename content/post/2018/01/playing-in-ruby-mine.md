@@ -1,7 +1,7 @@
 ---
 title: Playing in Ruby Mine
 date: 2018-01-06T14:39:00.000+07:00
-hero: images.unsplash.com/photo-1551122102-63cd339bfaab?ixlib=rb-1.2.1&ixid=MnwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&auto=format&fit=crop&w=2942&q=80
+hero: images.unsplash.com/photo-1551122102-63cd339bfaab
 excerpt: My journey using Ruby for the first time
 categories:
 - tech

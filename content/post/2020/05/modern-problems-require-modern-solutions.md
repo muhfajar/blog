@@ -1,7 +1,7 @@
 ---
 title: Modern Problems Require Modern Solutions
 date: 2020-05-09T15:37:00+07:00
-hero: images.unsplash.com/photo-1539627831859-a911cf04d3cd?ixlib=rb-1.2.1&ixid=MnwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&auto=format&fit=crop&w=2942&q=80
+hero: images.unsplash.com/photo-1539627831859-a911cf04d3cd
 excerpt: Journey to get stable internet connection
 categories:
 - journal
@@ -19,7 +19,7 @@ Recently I posted about my experience with the longest [work from home](https://
 
 Since internet access in my apartment is not good enough to make a video call or conference call, so I decide to make my phone a wifi modem, in the other word is wifi tethering. My mobile carrier is more reliable than apartment wifi, with a term and conditions.
 
-{{< figure src="images.unsplash.com/photo-1552345386-6690de5b2c09?ixlib=rb-1.2.1&ixid=MnwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&auto=format&fit=crop&w=2940&q=80" caption="fig: pisses me off" >}}
+{{< figure src="images.unsplash.com/photo-1552345386-6690de5b2c09" caption="pisses me off" >}}
 
 The term and conditions are like, a good signal is not in all apartment areas, that needs a lot of experiment and after multiple parameters to find a better signal, I just need to put my phone in there and don't do anything, and the other condition is, my phone need to placed directly on the floor, that's like a  natural cooling system, with the air conditioner turned on of course. Super cool and all good.
 

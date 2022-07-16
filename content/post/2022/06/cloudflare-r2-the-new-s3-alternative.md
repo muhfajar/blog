@@ -1,7 +1,7 @@
 ---
 title: 'Cloudflare R2: The New S3 Alternative'
 date: 2022-06-26T22:47:00.000+00:00
-hero: images.unsplash.com/photo-1565026103954-b4ffec207a3c?ixlib=rb-1.2.1&ixid=MnwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&auto=format&fit=crop&w=2940&q=80
+hero: images.unsplash.com/photo-1565026103954-b4ffec207a3c
 excerpt: The new alternative for object storage service, compatible with Amazon S3
 categories:
 - journal
@@ -23,7 +23,7 @@ From all features that I love, now Cloudflare has a new object storage service, 
 
 To be clear, I have a similar service for serving static assets for my project, that lives in [DigitalOcean Spaces](https://www.digitalocean.com/products/spaces "DigitalOcean Spaces"), which has a monthly cost of about $5 and the R2 is free for the first 10GB every month, then since my storage in DigitalOcean no more than 10GB, switching could be easy and good to go I guess.
 
-{{< figure src="images.unsplash.com/photo-1532199286643-4b8e3f4a2fd9?ixlib=rb-1.2.1&ixid=MnwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&auto=format&fit=crop&w=2912&q=80" caption="fig: migration" >}}
+{{< figure src="images.unsplash.com/photo-1587290538095-53583b6753e5" caption="migration" >}}
 
 Both of them have a similar feature that S3-compatible object storage, my project code could just change the base URL and some credentials regarding the new service. After some research (because the R2 is still in the Beta stage) the major difference from DigitalOcean Space is that R2 need to manually create the service to make the file exposed in public. The service itself is using [Cloudflare Worker](https://developers.cloudflare.com/r2/get-started/#5-access-your-r2-bucket-from-your-worker "Cloudflare Worker"), [on the next post will explain how to serve the R2 as a public](https://www.muhfajar.blog/post/2022/06/binding-r2-bucket-to-a-cloudflare-worker-to-serve-object-as-a-public/ "Binding R2 Bucket to a Cloudflare Worker to Serve Object as a Public").
 

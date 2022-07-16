@@ -1,7 +1,7 @@
 ---
 title: Markdown Syntax Guide
 date: 2019-03-11
-hero: images.unsplash.com/photo-1482062364825-616fd23b8fc1?ixlib=rb-1.2.1&ixid=MnwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&auto=format&fit=crop&w=2940&q=80
+hero: images.unsplash.com/photo-1482062364825-616fd23b8fc1
 excerpt: This article offers a sample of basic Markdown syntax that can be used in Hugo content files
 categories:
 - development

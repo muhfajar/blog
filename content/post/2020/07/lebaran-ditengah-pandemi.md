@@ -1,7 +1,7 @@
 ---
 title: Lebaran Ditengah Pandemi
 date: 2020-07-30T09:54:00+07:00
-hero: images.unsplash.com/photo-1559809928-bd1be8ea204b?ixlib=rb-1.2.1&ixid=MnwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&auto=format&fit=crop&w=2940&q=80
+hero: images.unsplash.com/photo-1559809928-bd1be8ea204b
 excerpt: Lebaran pertama yang saya jalani tanpa bisa mudik
 categories:
 - journal
@@ -25,6 +25,6 @@ Datanglah hari yang ditunggu, hari besar Idul Adha. Pagi-pagi saya sudah bersiap
 
 Namun setelah melihat semangat Mamah untuk melaksanakan shalat ied, yasudahlah, _bismillah_ lagi saja. Ihtiar saya datang ke mesjid dengan masker, bawa sarung, bawa sajadah dan yang pentingnya lagi, seperti ilustrasi dibawah ini, jaga jarak.
 
-{{< figure src="images.unsplash.com/photo-1600066975936-ecc81000c8b6?ixlib=rb-1.2.1&ixid=MnwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&auto=format&fit=crop&w=2088&q=80" caption="fig: ilustrasi jaga jarak" >}}
+{{< figure src="images.unsplash.com/photo-1600066975936-ecc81000c8b6" caption="jaga jarak" >}}
 
 Lebaran sekarang memang sedikit berbeda dari lebaran-lebaran yang sebelumnya. Tetap semangat! Semoga pandemi ini segera usai.

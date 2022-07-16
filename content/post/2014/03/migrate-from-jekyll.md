@@ -1,7 +1,7 @@
 ---
 title: Migrate to Hugo from Jekyll
 date: 2014-03-10
-hero: images.unsplash.com/photo-1470175369463-7bb9f41e614b?ixlib=rb-1.2.1&ixid=MnwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&auto=format&fit=crop&w=2946&q=80
+hero: images.unsplash.com/photo-1470175369463-7bb9f41e614b
 excerpt: Guide to migrate Jekyll projects to Hugo
 categories:
 - development
