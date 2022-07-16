@@ -22,15 +22,14 @@ I love Cloudflare, it has many features that I need, like caching, routing, serv
 
 From all features that I love, now Cloudflare has a new object storage service, called R2 which stands for "[Really Requestable](https://blog.cloudflare.com/introducing-r2-object-storage/ "Announcing Cloudflare R2")" (currently still in the public beta stage). When I see the R2 menu in the Cloudflare dashboard, the first I thought was, _is it good and worth trying? Am I really need to migrate my storage and save $5 every month?_
 
-For context: I have a similar service for serving static assets for my project, that lives in [DigitalOcean Spaces](https://www.digitalocean.com/products/spaces "DigitalOcean Spaces").
-
-
+To be clear, I have a similar service for serving static assets for my project, that lives in [DigitalOcean Spaces](https://www.digitalocean.com/products/spaces "DigitalOcean Spaces"), which has a monthly cost of about $5 and the R2 is free for the first 10GB every month, then since my storage in DigitalOcean no more than 10GB, switching could be easy and good to go I guess.
 
 <cite>Comparison Storage Cost \[^1\]</cite>
+
 \[^1\]: Data I took from the official page of each provider.
 
 | Provider | Storage Cost for 250GB | Pros | Cons |
 | --- | --- | --- | --- |
-| [Cloudflare R2](https://developers.cloudflare.com/r2/platform/pricing/) | $0.015 / GB = $3.75 per month | Free for 10 GB / month | Need to create worker to serve public (Beta) |
-| [Amazon S3 (Jakarta)](https://aws.amazon.com/s3/pricing/) | $0.025 / GB = $6.25 per month | Free for 5 GB / month | It has a complex pricing schema |
-| [DigitalOcean Spaces](https://www.digitalocean.com/pricing/spaces-object-storage) | $5 per month | Flat pricing, montly price include 1TB outbound transfer | Usage less than 250GB could be more pricy |
+| Cloudflare R2 | $0.015 / GB = $3.75 per month | Free for 10 GB / month | Need to create worker to serve public (Beta) |
+| Amazon S3 (Jakarta) | $0.025 / GB = $6.25 per month | Free for 5 GB / month | It has a complex pricing schema |
+| DigitalOcean Spaces | $5 per month | Flat pricing, montly price include 1TB outbound transfer | Usage less than 250GB could be more pricy |
