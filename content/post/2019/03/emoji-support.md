@@ -1,7 +1,7 @@
 ---
 title: Emoji Support
 date: 2019-03-05
-hero: https://images.unsplash.com/photo-1587483166702-bf9aa66bd791?ixlib=rb-1.2.1&ixid=MnwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&auto=format&fit=crop&w=2940&q=80
+hero: images.unsplash.com/photo-1587483166702-bf9aa66bd791?ixlib=rb-1.2.1&ixid=MnwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&auto=format&fit=crop&w=2940&q=80
 excerpt: Guide to emoji usage in Hugo
 categories:
 - development

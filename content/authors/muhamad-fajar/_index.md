@@ -3,7 +3,7 @@ title: Muhamad Fajar
 bio: |
   Full-snack developer, a self-taught person, and an amateur mobile photographer.
   Weekdays GoTix, weekend gowes.
-avatar: "/uploads/a93f8335-f3b4-4005-970b-00ef7c73dae1_1_201_a.jpeg"
+avatar: "cdn.muhfajar.blog/static/blog/img/post/a93f8335-f3b4-4005-970b-00ef7c73dae1_1_201_a.jpeg"
 featured: true
 social:
 - title: github

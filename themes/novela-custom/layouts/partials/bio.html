@@ -6,7 +6,7 @@
                         {{ with .Params.avatar }}
                             <div class="bio-avatar">
                                 <div class="bio-avatar-inner">
-                                    <img class="author-avatar" src="{{ . }}" />
+                                    <img class="author-avatar" src="{{ $.Site.Params.imgEdgeCacheTiny }}{{ . }}" />
                                 </div>
                             </div>
                         {{ end }}

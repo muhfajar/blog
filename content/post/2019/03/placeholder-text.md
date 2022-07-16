@@ -1,7 +1,7 @@
 ---
 title: Placeholder Text
 date: 2019-03-09
-hero: https://images.unsplash.com/photo-1536443527011-81700919d4c0?ixlib=rb-1.2.1&ixid=MnwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&auto=format&fit=crop&w=2940&q=80
+hero: images.unsplash.com/photo-1536443527011-81700919d4c0?ixlib=rb-1.2.1&ixid=MnwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&auto=format&fit=crop&w=2940&q=80
 excerpt: Lorem Ipsum Dolor Si Amet
 categories:
 - development

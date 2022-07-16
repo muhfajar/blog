@@ -2,7 +2,7 @@
     <div class="author-hero">
         {{ with .Params.avatar }}
             <div class="author-hero-image">
-                <img src="{{ . }}" />
+                <img src="{{ $.Site.Params.imgEdgeCacheSmall }}{{ . }}" />
             </div>
         {{ end }}
         <h1 class="author-heading">{{ .Title }}</h1>
