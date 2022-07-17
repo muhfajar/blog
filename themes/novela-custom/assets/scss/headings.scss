@@ -89,3 +89,19 @@ h6{
         font-size: 14px;
     }
 }
+
+article h1, h2, h3, h4, h5, h6 {
+    padding: 0;
+
+    @media screen and (max-width: 1070px){
+        padding: 0 82px 0 82px;
+    }
+
+    @media screen and (max-width: 737px){
+        padding: 0 20px 0 20px;
+    }
+
+    @media screen and (max-width: 540px){
+        padding: 0 20px 0 20px;
+    }
+}
