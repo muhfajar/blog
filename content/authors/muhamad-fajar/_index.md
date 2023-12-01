@@ -2,7 +2,7 @@
 title: Muhamad Fajar
 bio: |
   Full-Snack Developer by day, a self-taught wizard by night, and a weekend warrior capturing moments with my mini sidekick.
-avatar: "cdn.muhfajar.blog/static/blog/img/post/IMG_1058_sq.jpeg"
+avatar: "cdn.muhfajar.blog/static/blog/img/post/8AEE78F8-9105-4C26-94A1-BF2E767936DA_1_105_d.jpeg"
 featured: true
 social:
 - title: github
