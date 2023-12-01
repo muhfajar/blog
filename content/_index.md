@@ -2,8 +2,7 @@
 title: Main Hero
 hero:
   heading: |
-    Just another person trying to find out how to responsibly
-    live on this earth.
+    The journey of responsibly thriving on Earth!
   maxWidthPX: 666
 seo:
   image: https://cdn.muhfajar.blog/static/blog/img/gallery/thumbs/05.webp
